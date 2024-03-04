@@ -1,0 +1,68 @@
+.navigation {
+  .nav-item {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: all 0.3s;
+    &:hover {
+      background-color: $bgc-input-light;
+    }
+    a {
+      color: $txt;
+    }
+  }
+  .dropdown-menu {
+    border-radius: 0;
+    .dropdown-item:active,
+    .dropdown-item:hover {
+      background-color: $bgc-input-light;
+    }
+  }
+}
+
+@media all and (min-width: $medium) {
+  .navigation {
+    .nav-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 18%;
+
+      &:hover {
+        background-color: transparent;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background: $bgc-hover-btn;
+        transition: width 0.2s;
+      }
+
+      &:hover::after {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media all and (min-width: $large) {
+  .navigation {
+    padding-top: 15px;
+  }
+}
+@media all and (min-width: $extra-large) {
+  .navigation {
+    .nav-item {
+      justify-content: space-around;
+      width: 12%;
+    }
+  }
+}
