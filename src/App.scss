@@ -1,0 +1,11 @@
+@import "./scss/general/Variables.scss";
+
+@import "./scss/layout/Home.scss";
+
+@import "./scss/components/Navigation.scss";
+@import "./scss/components/Header.scss";
+
+.App {
+  text-align: center;
+  height: 300vh;
+}
