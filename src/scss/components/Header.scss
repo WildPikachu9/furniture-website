@@ -1,8 +1,20 @@
 .header-container {
+  position: absolute;
   padding: 10px 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent) 0 0
+    no-repeat padding-box;
+  width: 100%;
+  transition: all 0.3s;
+  &:hover {
+    background: #fff;
+  }
+  &:hover .header-logo {
+    color: $txt;
+  }
   .header-logo {
     display: flex;
     justify-content: space-between;
+    color: #fff;
 
     & > * {
       margin: 5px 10px;

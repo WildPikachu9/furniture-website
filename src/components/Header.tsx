@@ -25,7 +25,7 @@ export const Header = () => {
   }, []);
 
   return (
-    <div className='header-container'>
+    <header className='header-container'>
       <div className='header-logo'>
         {windowWidth <= 768 ? (
           <Button onClick={handleShow} className='navbar-button'>
@@ -48,6 +48,6 @@ export const Header = () => {
           <Navigation />
         )}
       </div>
-    </div>
+    </header>
   );
 };

@@ -1,0 +1,12 @@
+.home-container {
+  color: $bgc-gray;
+  overflow: hidden;
+  .home-header {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-image: url("../../img/img1.jpg");
+  }
+}
