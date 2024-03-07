@@ -8,24 +8,36 @@ import { Navigation } from "./Navigation";
 export const Header = () => {
   const [show, setShow] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const handleResize = () => {
-    setWindowWidth(window.innerWidth);
-  };
-
   useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos === 0);
+      setPrevScrollPos(currentScrollPos);
+    };
+
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
+
+    setPrevScrollPos(window.scrollY);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [prevScrollPos]);
 
   return (
-    <header className='header-container'>
+    <header className={`header-container ${visible ? "" : "hidden"}`}>
       <div className='header-logo'>
         {windowWidth <= 768 ? (
           <Button onClick={handleShow} className='navbar-button'>

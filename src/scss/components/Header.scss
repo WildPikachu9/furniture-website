@@ -1,10 +1,12 @@
 .header-container {
-  position: absolute;
+  position: sticky;
+  top: 0;
   padding: 10px 0;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent) 0 0
     no-repeat padding-box;
   width: 100%;
-  transition: all 0.3s;
+  z-index: 10;
+  transition: all 0.4s;
   &:hover {
     background: #fff;
   }
@@ -39,7 +41,12 @@
       }
     }
   }
+
+  &.hidden {
+    top: -200px;
+  }
 }
+
 .offcanvas-header .btn-close {
   transition: all 0.6s;
   &:hover {
