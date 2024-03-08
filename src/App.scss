@@ -4,8 +4,12 @@
 
 @import "./scss/components/Navigation.scss";
 @import "./scss/components/Header.scss";
+@import "./scss/components/Button.scss";
 
 .App {
   text-align: center;
   height: 300vh;
+  a {
+    text-decoration: none;
+  }
 }

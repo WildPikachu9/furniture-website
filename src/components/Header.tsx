@@ -39,7 +39,7 @@ export const Header = () => {
   return (
     <header className={`header-container ${visible ? "" : "hidden"}`}>
       <div className='header-logo'>
-        {windowWidth <= 768 ? (
+        {windowWidth <= 769 ? (
           <Button onClick={handleShow} className='navbar-button'>
             <FontAwesomeIcon icon={faBars} />
           </Button>
@@ -47,13 +47,13 @@ export const Header = () => {
         <h1 className='logo'>arsmeble.</h1>
       </div>
       <div>
-        {windowWidth <= 768 ? (
+        {windowWidth <= 769 ? (
           <Offcanvas show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>arsmeble.</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Navigation />
+              <Navigation handleClose={handleClose} />
             </Offcanvas.Body>
           </Offcanvas>
         ) : (

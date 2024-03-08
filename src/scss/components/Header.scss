@@ -9,9 +9,10 @@
   transition: all 0.4s;
   &:hover {
     background: #fff;
-  }
-  &:hover .header-logo {
-    color: $txt;
+    .header-logo,
+    .header-logo .navbar-button svg {
+      color: $txt;
+    }
   }
   .header-logo {
     display: flex;
@@ -32,7 +33,7 @@
         background-color: transparent;
       }
       svg {
-        color: black;
+        color: #fff;
         font-size: 20px;
         transition: all 0.6s;
         &:hover {
