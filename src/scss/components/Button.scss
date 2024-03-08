@@ -1,0 +1,31 @@
+.button-main {
+  padding: 15px 20px;
+  border: 2px solid $bgc-light;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  color: $bgc-light;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: $baseline;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    border-color: rgba($color: #000000, $alpha: 0.8);
+    background-color: rgba($color: #000000, $alpha: 0.8);
+  }
+  a {
+    color: $bgc-light;
+  }
+}
+
+@media all and (min-width: $extra-small) {
+  .button-main {
+    font-size: $baseline + 2px;
+  }
+}
+@media all and (min-width: $medium) {
+  .button-main {
+    padding: 20px 55px;
+    font-size: $baseline + 8px;
+  }
+}

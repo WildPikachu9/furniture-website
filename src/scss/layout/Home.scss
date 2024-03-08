@@ -1,12 +1,52 @@
 .home-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
   color: $bgc-gray;
   overflow: hidden;
-  .home-header {
+
+  .carousel-img {
     height: 100vh;
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center;
-    background-image: url("../../img/img1.jpg");
+    background-position: center;
+  }
+
+  .carousel-desc {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    text-transform: uppercase;
+
+    .carousel-text {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0 50px;
+      width: 100%;
+      font-size: 30px;
+
+      @media all and (min-width: $extra-small) {
+        font-size: 40px;
+      }
+      @media all and (min-width: $small) {
+        font-size: 50px;
+      }
+      @media all and (min-width: $medium) {
+        font-size: 60px;
+      }
+      @media all and (min-width: $extra-large) {
+        font-size: 80px;
+      }
+    }
+
+    button {
+      position: absolute;
+      bottom: 40px;
+      right: 50%;
+      transform: translateX(50%);
+    }
   }
 }
