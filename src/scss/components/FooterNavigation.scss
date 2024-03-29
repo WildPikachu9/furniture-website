@@ -1,0 +1,67 @@
+.footer-nav-component {
+  .accordion {
+    .accordion-header .accordion-button {
+      text-transform: uppercase;
+      font-family: $roboto;
+      font-weight: 400;
+
+      &:not(.collapsed) {
+        color: $txt;
+        background-color: $bgc-input-light;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+
+  .footer-nav {
+    .nav-item {
+      text-transform: capitalize;
+      a {
+        transition: all 0.3s;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  .footer-nav-decstop {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+
+    .footer-nav-decstop-item {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      padding: 0 30px;
+
+      h3 {
+        font-family: $roboto;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 1.5rem;
+      }
+
+      .footer-nav {
+        .nav-item {
+          padding: 5px;
+
+          &:hover {
+            background: none;
+          }
+        }
+      }
+
+      .footer-social-links {
+        margin-top: 30px;
+
+        .social-list {
+          justify-content: start;
+        }
+      }
+    }
+  }
+}
