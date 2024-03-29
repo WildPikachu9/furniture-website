@@ -19,6 +19,11 @@
     justify-content: space-between;
     color: #fff;
 
+    .logo {
+      font-family: $logo-font;
+      font-weight: 700;
+    }
+
     & > * {
       margin: 5px 10px;
     }

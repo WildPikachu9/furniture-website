@@ -25,11 +25,11 @@
 }
 
 @media all and (min-width: $medium) {
-  .header-container:hover .navigation a {
+  .header-container:hover .main-nav a {
     color: $txt;
   }
 
-  .navigation {
+  .main-nav {
     .nav-item {
       display: flex;
       flex-wrap: wrap;
@@ -50,7 +50,7 @@
         width: 0;
         height: 2px;
         background: $bgc-hover-btn;
-        transition: width 0.2s;
+        transition: width 0.3s;
       }
 
       &:hover::after {
@@ -58,6 +58,7 @@
       }
 
       a {
+        text-align: center;
         color: #fff;
         font-weight: 500;
       }
@@ -66,15 +67,14 @@
 }
 
 @media all and (min-width: $large) {
-  .navigation {
+  .main-nav {
     padding-top: 15px;
   }
 }
 @media all and (min-width: $extra-large) {
-  .navigation {
+  .main-nav {
     .nav-item {
       justify-content: space-around;
-      width: 12%;
     }
   }
 }

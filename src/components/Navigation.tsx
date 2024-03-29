@@ -8,7 +8,7 @@ interface NavProps {
 
 export const Navigation = ({ handleClose }: NavProps) => {
   return (
-    <Nav className='navigation justify-content-center'>
+    <Nav className='navigation main-nav justify-content-center'>
       <Nav.Item onClick={handleClose}>
         <Link to='/'>strona główna</Link>
       </Nav.Item>
