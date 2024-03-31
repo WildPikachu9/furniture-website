@@ -1,0 +1,20 @@
+h2.main-title {
+  padding: 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.links-button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 1px solid $bgc-hover-btn;
+  text-transform: uppercase;
+  color: $txt;
+  background-color: $bgc-input-light;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $bgc-hover-btn;
+  }
+}

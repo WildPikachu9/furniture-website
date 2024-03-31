@@ -1,4 +1,4 @@
-.home-container {
+.home-layout-container {
   position: absolute;
   top: 0;
   width: 100%;
@@ -48,5 +48,10 @@
       right: 50%;
       transform: translateX(50%);
     }
+  }
+
+  .offers-component-container {
+    margin-bottom: 40px;
+    padding: 0 70px 20px 70px;
   }
 }
