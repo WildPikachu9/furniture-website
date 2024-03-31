@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "./scss/general/Variables.scss";
+@import "./scss/general/General.scss";
 
 @import "./scss/layout/Home.scss";
 
@@ -10,11 +11,13 @@
 @import "./scss/components/Button.scss";
 @import "./scss/components/Footer.scss";
 @import "./scss/components/FooterNavigation.scss";
+@import "./scss/components/CardSlider.scss";
 
 .App {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $roboto;
   a {
     text-decoration: none;
   }

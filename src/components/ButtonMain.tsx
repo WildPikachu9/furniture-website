@@ -4,6 +4,6 @@ interface ButtonProps {
   children: string | JSX.Element;
 }
 
-export const Button = ({ children }: ButtonProps) => {
+export const ButtonMain = ({ children }: ButtonProps) => {
   return <button className='button-main'>{children}</button>;
 };
