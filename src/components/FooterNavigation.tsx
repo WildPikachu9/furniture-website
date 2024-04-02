@@ -2,7 +2,11 @@ import "bootstrap/dist/css/bootstrap.css";
 import Accordion from "react-bootstrap/Accordion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faSquarePhone, faAt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSquarePhone,
+  faAt,
+  faArrowUp,
+} from "@fortawesome/free-solid-svg-icons";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -84,6 +88,13 @@ export const SocialLinks = () => {
   );
 };
 export const FooterNavigation: React.FC<FooterProps> = ({ windowWidth }) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className='footer-nav-component'>
       {windowWidth <= 769 ? (
@@ -106,6 +117,11 @@ export const FooterNavigation: React.FC<FooterProps> = ({ windowWidth }) => {
               <FooterNavOffers />
             </Accordion.Body>
           </Accordion.Item>
+          <Accordion.Item eventKey='0' className='scroll-to-up-button'>
+            <Accordion.Header onClick={scrollToTop}>
+              przewiń w górę
+            </Accordion.Header>
+          </Accordion.Item>
         </Accordion>
       ) : (
         <div className='footer-nav-decstop'>
@@ -120,6 +136,11 @@ export const FooterNavigation: React.FC<FooterProps> = ({ windowWidth }) => {
           <div className='footer-nav-decstop-item'>
             <h3>skontaktuj się z nami</h3>
             <SocialLinks />
+          </div>
+          <div className='footer-nav-decstop-item scroll-to-up-button-decstop'>
+            <button onClick={scrollToTop} className='scroll-to-up-button'>
+              <FontAwesomeIcon icon={faArrowUp} />
+            </button>
           </div>
         </div>
       )}

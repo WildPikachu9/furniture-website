@@ -5,6 +5,8 @@ import { ButtonMain } from "../components/ButtonMain";
 import { Link } from "react-router-dom";
 import { CardSlider } from "../components/CardSlider";
 import { offersDataHomePage } from "../furnitureData/OffersDataHomePage";
+import { blogDataHomePage } from "../furnitureData/BlogDataHomePage";
+import { Footer } from "../components/Footer";
 
 export const HomeCarousel = () => {
   const [index, setIndex] = useState(0);
@@ -60,6 +62,11 @@ export const Home = () => {
           </ButtonMain>
         </div>
       </section>
+      <section className='blog-component-container'>
+        <h2 className='main-title'>nasz blog</h2>
+        <CardSlider data={blogDataHomePage} />
+      </section>
+      <Footer />
     </div>
   );
 };

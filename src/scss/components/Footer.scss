@@ -1,6 +1,4 @@
 .footer-component {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 
   .footer-nav-container {
@@ -18,11 +16,9 @@
         flex-wrap: wrap;
         justify-content: center;
 
-        li.social-link {
+        .social-link {
           position: relative;
-          box-shadow: 1px 0 rgb(226, 222, 219), 0 1px rgb(226, 222, 219),
-            1px 1px rgb(226, 222, 219), 1px 0 rgb(226, 222, 219) inset,
-            0 1px rgb(226, 222, 219) inset;
+          box-shadow: $light-border;
 
           &:hover a {
             color: #fff;
