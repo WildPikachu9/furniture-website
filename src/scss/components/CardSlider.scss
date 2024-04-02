@@ -1,6 +1,6 @@
 .slider-container {
   .slider {
-    text-align: center;
+    // text-align: center;
     .slick-arrow {
       z-index: 1000;
       transition: all 0.3s;
@@ -24,10 +24,13 @@
       }
 
       .slider-card-container {
+        border: none;
+
         .slider-card-img {
           height: 300px;
           width: 100%;
           object-fit: cover;
+          border-radius: 0;
 
           @media all and (min-width: $large) {
             height: 400px;

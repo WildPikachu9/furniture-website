@@ -59,7 +59,7 @@ export const CardSlider = ({ data }: CardSliderProps) => {
               <Card.Title>{item.name}</Card.Title>
               <Card.Text>{item.desc}</Card.Text>
               <Link to='/o-nas' className='links-button'>
-                zobacz więcej
+                Zobacz więcej
               </Link>
             </Card.Body>
           </Card>

@@ -8,13 +8,11 @@ h2.main-title {
 .links-button {
   margin: 20px 0;
   padding: 10px 20px;
-  border: 1px solid $bgc-hover-btn;
-  text-transform: uppercase;
+  border: 1px solid $bgc-input-light;
   color: $txt;
-  background-color: $bgc-input-light;
   transition: all 0.3s;
 
   &:hover {
-    background-color: $bgc-hover-btn;
+    background-color: $bgc-input-light;
   }
 }
