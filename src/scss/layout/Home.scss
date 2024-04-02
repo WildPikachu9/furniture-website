@@ -54,4 +54,50 @@
     margin-bottom: 40px;
     padding: 0 70px 20px 70px;
   }
+
+  .about-component-container {
+    .img-about-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-image: url(../../../public/img/img3.jpg);
+      width: 100%;
+
+      .logo,
+      .main-title {
+        padding: 0 20px;
+        font-weight: 700;
+        font-size: $baseline + 16px;
+        text-align: center;
+        color: $bgc-light;
+
+        @media all and (min-width: $extra-small) {
+          font-size: 40px;
+        }
+        @media all and (min-width: $small) {
+          font-size: 50px;
+        }
+        @media all and (min-width: $medium) {
+          font-size: 60px;
+        }
+        @media all and (min-width: $extra-large) {
+          font-size: 80px;
+        }
+      }
+
+      button {
+        position: absolute;
+        bottom: 40px;
+        right: 50%;
+        transform: translateX(50%);
+
+        @media all and (min-width: $medium) {
+          font-size: $baseline + 10px;
+        }
+        @media all and (min-width: $large) {
+          font-size: $baseline + 15px;
+        }
+      }
+    }
+  }
 }

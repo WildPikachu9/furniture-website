@@ -1,5 +1,5 @@
 .header-container {
-  position: sticky;
+  position: fixed;
   top: 0;
   padding: 10px 0;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent) 0 0
@@ -7,6 +7,11 @@
   width: 100%;
   z-index: 10;
   transition: all 0.4s;
+
+  &.hidden {
+    transform: translateY(-100%);
+  }
+
   &:hover {
     background: #fff;
     .header-logo,
@@ -46,10 +51,6 @@
         }
       }
     }
-  }
-
-  &.hidden {
-    top: -200px;
   }
 }
 

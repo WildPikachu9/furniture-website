@@ -51,6 +51,15 @@ export const Home = () => {
         <h2 className='main-title'>nasza oferta</h2>
         <CardSlider data={offersDataHomePage} />
       </section>
+      <section className='about-component-container'>
+        <div className='img-about-container carousel-img'>
+          <h1 className='logo'>arsmeble.</h1>
+          <h2 className='main-title'>dowiedz się więcej o naszej firmie</h2>
+          <ButtonMain>
+            <Link to='/o-nas'>czytaj więcej</Link>
+          </ButtonMain>
+        </div>
+      </section>
     </div>
   );
 };
