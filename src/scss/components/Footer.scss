@@ -74,11 +74,17 @@
 
   .footer-policy-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+
     align-items: center;
     padding: 15px 20px 5px 20px;
     width: 100%;
     background-color: $bgc-gray;
+
+    & > * {
+      flex-grow: 1;
+      margin: 5px 0;
+    }
 
     p,
     a {
@@ -87,6 +93,16 @@
     }
     a:hover {
       text-decoration: underline;
+    }
+
+    @media all and (min-width: $medium) {
+      flex-direction: row;
+      justify-content: space-around;
+
+      & > * {
+        flex-grow: 0;
+        margin: 15px 0;
+      }
     }
   }
 }

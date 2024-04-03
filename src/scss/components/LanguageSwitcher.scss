@@ -1,0 +1,12 @@
+.language-select {
+  padding: 5px 10px;
+  border: 1px solid $bgc-hover-btn;
+  background: $bgc-gray;
+  color: $bgc-light;
+  font-family: $roboto;
+  overflow: hidden;
+
+  &:focus-visible {
+    outline: none;
+  }
+}

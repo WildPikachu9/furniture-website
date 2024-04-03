@@ -1,37 +1,36 @@
-export const offersDataHomePage = [
-  {
-    name: "Meble kuchenne",
-    img: "/img/img2.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-  {
-    name: "Meble lazienka",
-    img: "/img/img1.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-  {
-    name: "Meble sypialnia",
-    img: "/img/img2.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-  {
-    name: "Meble podddasze",
-    img: "/img/img2.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-  {
-    name: "Meble blala",
-    img: "/img/img1.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-  {
-    name: "Meble kuchenne",
-    img: "/img/img2.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-  {
-    name: "Meble kuchenne",
-    img: "/img/img1.jpg",
-    desc: "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore",
-  },
-];
+import "../i18next";
+import { useTranslation } from "react-i18next";
+
+export const OffersDataHomePage = () => {
+  const { t } = useTranslation();
+
+  const offersDataHomePage = [
+    {
+      name: t("offersDataHomePage.offer1.name"),
+      img: "/img/img2.jpg",
+      desc: t("offersDataHomePage.offer1.desc"),
+    },
+    {
+      name: t("offersDataHomePage.offer2.name"),
+      img: "/img/img1.jpg",
+      desc: t("offersDataHomePage.offer2.desc"),
+    },
+    {
+      name: t("offersDataHomePage.offer3.name"),
+      img: "/img/img2.jpg",
+      desc: t("offersDataHomePage.offer3.desc"),
+    },
+    {
+      name: t("offersDataHomePage.offer4.name"),
+      img: "/img/img2.jpg",
+      desc: t("offersDataHomePage.offer4.desc"),
+    },
+    {
+      name: t("offersDataHomePage.offer5.name"),
+      img: "/img/img1.jpg",
+      desc: t("offersDataHomePage.offer5.desc"),
+    },
+  ];
+
+  return offersDataHomePage;
+};

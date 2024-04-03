@@ -1,0 +1,81 @@
+{
+  "blogDataHomePage": {
+    "blog1": {
+      "name": "Polish",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "blog2": {
+      "name": "Blog post 0",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "blog3": {
+      "name": "Blog post 1",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "blog4": {
+      "name": "Blog post 2",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "blog5": {
+      "name": "Blog post 3",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "blog6": {
+      "name": "Blog post 6",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "blog7": {
+      "name": "Blog post 7",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "offersDataHomePage": {
+    "offer1": {
+      "name": "Meble kuchenne",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer2": {
+      "name": "Meble lazienkowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer3": {
+      "name": "Meble biurowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer4": {
+      "name": "Meble mlodziezowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer5": {
+      "name": "szafy do szypialni",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "general": {
+    "seeMore": "Zobacz więcej",
+    "readMore": "Czytaj więcej",
+
+    "menu": {
+      "home": "strona główna",
+      "about": "o nas",
+      "gallery": "galeria",
+      "offers": "oferta",
+      "contact": "kontakt",
+      "policy": "Polityka prywatności",
+      "scrollToUp": "przewiń w górę"
+    },
+
+    "headersHome": {
+      "bannerText1": "meble na wymiar",
+      "bannerText2": "wystrój wnętrza",
+      "aboutSection": "dowiedz się więcej o  naszej firmie",
+      "offersSection": "nasza oferta",
+      "blogSection": "nasz blog",
+      "contactUs": "skontaktuj się z nami",
+      "moreAboutUs": "dowiedz się o nas więcej",
+      "moreAboutOffers": "zobacz naszą ofertę"
+    }
+  }
+}
