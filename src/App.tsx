@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Header } from "./components/Header";
+import { Header } from "./views/components/header/Header";
 import { AppRoutes } from "./routes/AppRoutes";
 
 function App() {

@@ -1,8 +1,12 @@
+import "../../../i18next";
+import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.css";
 import { FooterNavigation } from "./FooterNavigation";
 import { useEffect, useState } from "react";
+import { LanguageSwitcher } from "../languageSwitcher/LanguageSwitcher";
 
 export const Footer = () => {
+  const { t } = useTranslation();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -24,8 +28,9 @@ export const Footer = () => {
         <FooterNavigation windowWidth={windowWidth} />
       </div>
       <section className='footer-policy-container'>
+        <LanguageSwitcher />
         <p>
-          <a href='#'>Polityka prywatności</a>
+          <a href='#'>{t("general.menu.policy")}</a>
         </p>
         <p>&copy; 2024 arsmeble.</p>
       </section>

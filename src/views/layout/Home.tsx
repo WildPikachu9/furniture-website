@@ -1,15 +1,18 @@
+import "../../i18next";
+import { useTranslation } from "react-i18next";
 import { SetStateAction, useState } from "react";
-import "../App.scss";
+import "../../App.scss";
 import Carousel from "react-bootstrap/Carousel";
 import { ButtonMain } from "../components/ButtonMain";
 import { Link } from "react-router-dom";
 import { CardSlider } from "../components/CardSlider";
-import { offersDataHomePage } from "../furnitureData/OffersDataHomePage";
-import { blogDataHomePage } from "../furnitureData/BlogDataHomePage";
-import { Footer } from "../components/Footer";
+import { OffersDataHomePage } from "../../furnitureData/OffersDataHomePage";
+import { BlogDataHomePage } from "../../furnitureData/BlogDataHomePage";
+import { Footer } from "../components/footer/Footer";
 
 export const HomeCarousel = () => {
   const [index, setIndex] = useState(0);
+  const { t } = useTranslation();
 
   const handleSelect = (selectedIndex: SetStateAction<number>) => {
     setIndex(selectedIndex);
@@ -23,9 +26,11 @@ export const HomeCarousel = () => {
           style={{ backgroundImage: "url(/img/img1.jpg)" }}
         ></div>
         <Carousel.Caption className='carousel-desc'>
-          <h1 className='carousel-text'>meble na wymiar</h1>
+          <h1 className='carousel-text'>
+            {t("general.headersHome.bannerText1")}
+          </h1>
           <ButtonMain>
-            <Link to='/oferta'>czytaj więcej</Link>
+            <Link to='/oferta'>{t("general.readMore")}</Link>
           </ButtonMain>
         </Carousel.Caption>
       </Carousel.Item>
@@ -35,9 +40,11 @@ export const HomeCarousel = () => {
           style={{ backgroundImage: "url(/img/img2.jpg)" }}
         ></div>
         <Carousel.Caption className='carousel-desc'>
-          <h1 className='carousel-text'>wystrój wnętrza</h1>
+          <h1 className='carousel-text'>
+            {t("general.headersHome.bannerText2")}
+          </h1>
           <ButtonMain>
-            <Link to='/oferta'>czytaj więcej</Link>
+            <Link to='/oferta'>{t("general.readMore")}</Link>
           </ButtonMain>
         </Carousel.Caption>
       </Carousel.Item>
@@ -46,25 +53,31 @@ export const HomeCarousel = () => {
 };
 
 export const Home = () => {
+  const { t } = useTranslation();
+  const blogs = BlogDataHomePage();
+  const offers = OffersDataHomePage();
+
   return (
     <div className='home-layout-container'>
       <HomeCarousel />
       <section className='offers-component-container'>
-        <h2 className='main-title'>nasza oferta</h2>
-        <CardSlider data={offersDataHomePage} />
+        <h2 className='main-title'>{t("general.headersHome.offersSection")}</h2>
+        <CardSlider data={offers} />
       </section>
       <section className='about-component-container'>
         <div className='img-about-container carousel-img'>
           <h1 className='logo'>arsmeble.</h1>
-          <h2 className='main-title'>dowiedz się więcej o naszej firmie</h2>
+          <h2 className='main-title'>
+            {t("general.headersHome.aboutSection")}
+          </h2>
           <ButtonMain>
-            <Link to='/o-nas'>czytaj więcej</Link>
+            <Link to='/o-nas'>{t("general.readMore")}</Link>
           </ButtonMain>
         </div>
       </section>
       <section className='blog-component-container'>
-        <h2 className='main-title'>nasz blog</h2>
-        <CardSlider data={blogDataHomePage} />
+        <h2 className='main-title'>{t("general.headersHome.blogSection")}</h2>
+        <CardSlider data={blogs} />
       </section>
       <Footer />
     </div>

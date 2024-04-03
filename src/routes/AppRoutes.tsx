@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "../layout/Home";
-import { About } from "../layout/About";
-import { Offers } from "../layout/Offers";
-import { Gallery } from "../layout/Gallery";
-import { Contact } from "../layout/Contact";
+import { Home } from "../views/layout/Home";
+import { About } from "../views/layout/About";
+import { Offers } from "../views/layout/Offers";
+import { Gallery } from "../views/layout/Gallery";
+import { Contact } from "../views/layout/Contact";
 
 export const AppRoutes = () => {
   return (

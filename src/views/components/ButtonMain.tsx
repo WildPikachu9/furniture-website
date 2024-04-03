@@ -1,4 +1,4 @@
-import "../App.scss";
+import "../../App.scss";
 
 interface ButtonProps {
   children: string | JSX.Element;
