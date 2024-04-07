@@ -5,6 +5,7 @@
 @import "./scss/general/General.scss";
 
 @import "./scss/layout/Home.scss";
+@import "./scss/layout/Gallery.scss";
 
 @import "./scss/components/Navigation.scss";
 @import "./scss/components/Header.scss";
@@ -13,6 +14,7 @@
 @import "./scss/components/FooterNavigation.scss";
 @import "./scss/components/CardSlider.scss";
 @import "./scss/components/LanguageSwitcher.scss";
+@import "./scss/components/SecondaryHeader.scss";
 
 .App {
   margin: 0;
