@@ -14,14 +14,6 @@
       text-decoration: none;
     }
   }
-
-  .dropdown-menu {
-    border-radius: 0;
-    .dropdown-item:active,
-    .dropdown-item:hover {
-      background-color: $bgc-input-light;
-    }
-  }
 }
 
 @media all and (min-width: $medium) {

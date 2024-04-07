@@ -1,6 +1,6 @@
 import "../../../i18next";
 import { useTranslation } from "react-i18next";
-import { Nav, NavDropdown } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
 
@@ -22,21 +22,9 @@ export const Navigation = ({ handleClose }: NavProps) => {
       <Nav.Item onClick={handleClose}>
         <Link to='/galeria'>{t("general.menu.gallery")}</Link>
       </Nav.Item>
-      <NavDropdown
-        title={t("general.menu.offers")}
-        id='basic-nav-dropdown'
-        className='dropdown'
-      >
-        <NavDropdown.Item onClick={handleClose}>
-          <Link to='/oferta'>oferta 0</Link>
-        </NavDropdown.Item>
-        <NavDropdown.Item onClick={handleClose}>
-          <Link to='/oferta'>oferta 0</Link>
-        </NavDropdown.Item>
-        <NavDropdown.Item onClick={handleClose}>
-          <Link to='/oferta'>oferta 0</Link>
-        </NavDropdown.Item>
-      </NavDropdown>
+      <Nav.Item onClick={handleClose}>
+        <Link to='/oferta'>{t("general.menu.offers")}</Link>
+      </Nav.Item>
       <Nav.Item onClick={handleClose}>
         <Link to='/kontakt'>{t("general.menu.contact")}</Link>
       </Nav.Item>
