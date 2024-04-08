@@ -9,6 +9,7 @@ import { CardSlider } from "../components/CardSlider";
 import { OffersDataHomePage } from "../../furnitureData/OffersDataHomePage";
 import { BlogDataHomePage } from "../../furnitureData/BlogDataHomePage";
 import { Footer } from "../components/footer/Footer";
+import { MetaData } from "../components/metaData/MetaData";
 
 export const HomeCarousel = () => {
   const [index, setIndex] = useState(0);
@@ -59,6 +60,7 @@ export const Home = () => {
 
   return (
     <div className='home-layout-container'>
+      <MetaData metaDesc={t("metaData.descriptionHome")} />
       <HomeCarousel />
       <section className='offers-component-container'>
         <h2 className='main-title'>{t("general.headersHome.offersSection")}</h2>

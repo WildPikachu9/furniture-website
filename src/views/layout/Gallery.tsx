@@ -1,3 +1,5 @@
+import "../../i18next";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import "../../index.scss";
 import { Footer } from "../components/footer/Footer";
@@ -14,14 +16,21 @@ import {
 } from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import { SecondaryHeader } from "../components/secondaryHeader/SecondaryHeader";
+import { MetaData } from "../components/metaData/MetaData";
 
 export const Gallery = () => {
+  const { t } = useTranslation();
   const [index, setIndex] = useState(-1);
 
   return (
     <div className='gallery-layout-container'>
-      <SecondaryHeader />
+      <MetaData
+        metaDesc={t("metaData.descriptionGallery")}
+        title={t("general.menu.gallery")}
+      />
+      <SecondaryHeader children={t("general.menu.gallery")} />
       <section className='gallery-container'>
+        <h2 className='main-title'>nasza galeria zdjec</h2>
         <PhotoAlbum
           photos={PhotosGallery}
           layout='rows'
@@ -37,7 +46,6 @@ export const Gallery = () => {
           plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
         />
       </section>
-
       <Footer />
     </div>
   );
