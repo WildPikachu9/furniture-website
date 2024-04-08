@@ -51,8 +51,8 @@ export const CardSlider = ({ data }: CardSliderProps) => {
   return (
     <div className='slider-container'>
       <Slider {...settings} className='slider'>
-        {data.map((item) => (
-          <Card className='slider-card-container'>
+        {data.map((item, index) => (
+          <Card key={index} className='slider-card-container'>
             <Card.Img
               variant='top'
               src={item.img}

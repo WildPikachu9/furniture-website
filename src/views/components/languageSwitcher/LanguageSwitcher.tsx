@@ -20,15 +20,11 @@ export const LanguageSwitcher = () => {
         name='lang'
         onChange={(e) => changeLanguage(e.target.value)}
         className='language-select'
+        value={i18n.language}
       >
         {languages.map((lng) => {
           return (
-            <option
-              key={lng.code}
-              value={lng.code}
-              selected={lng.code === i18n.language}
-              className='language-option'
-            >
+            <option key={lng.code} value={lng.code} className='language-option'>
               {lng.lang}
             </option>
           );
