@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./index.scss";
 import { Header } from "./views/components/header/Header";
 import { AppRoutes } from "./routes/AppRoutes";
 

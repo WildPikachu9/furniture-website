@@ -1,7 +1,7 @@
 import "../../i18next";
 import { useTranslation } from "react-i18next";
 import { SetStateAction, useState } from "react";
-import "../../App.scss";
+import "../../index.scss";
 import Carousel from "react-bootstrap/Carousel";
 import { ButtonMain } from "../components/ButtonMain";
 import { Link } from "react-router-dom";

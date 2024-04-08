@@ -1,4 +1,4 @@
-import "../../../App.scss";
+import "../../../index.scss";
 import headerImg from "../../../img/img3.jpg";
 
 interface SecondaryHeaderProps {

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "./scss/general/Variables";
+@import "./scss/general/General";
+
+@import "./App";
+
+@import "./scss/layout/Home";
+@import "./scss/layout/Gallery";
+
+@import "./scss/components/Navigation";
+@import "./scss/components/Header";
+@import "./scss/components/ButtonMain";
+@import "./scss/components/Footer";
+@import "./scss/components/FooterNavigation";
+@import "./scss/components/CardSlider";
+@import "./scss/components/LanguageSwitcher";
+@import "./scss/components/SecondaryHeader";

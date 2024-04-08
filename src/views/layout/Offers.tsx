@@ -1,4 +1,4 @@
-import "../../App.scss";
+import "../../index.scss";
 import { Footer } from "../components/footer/Footer";
 
 export const Offers = () => {
