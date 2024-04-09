@@ -32,7 +32,10 @@ export const Gallery = () => {
       <section className='gallery-container'>
         <h2 className='main-title'>nasza galeria zdjec</h2>
         <PhotoAlbum
-          photos={PhotosGallery}
+          photos={PhotosGallery.map((photo, index) => ({
+            ...photo,
+            key: index.toString(),
+          }))}
           layout='rows'
           targetRowHeight={150}
           onClick={({ index }) => setIndex(index)}

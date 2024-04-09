@@ -2,6 +2,12 @@ import img1 from "../img/img1.jpg";
 import img2 from "../img/img2.jpg";
 import img3 from "../img/img3.jpg";
 
+interface Photo {
+  src: string;
+  width: number;
+  height: number;
+}
+
 const localPhotos = [
   { src: img1, width: 1080, height: 800 },
   { src: img2, width: 1080, height: 1620 },
@@ -13,7 +19,7 @@ const localPhotos = [
 
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
-export const PhotosGallery = localPhotos.map((photo) => {
+export const PhotosGallery = localPhotos.map((photo: Photo) => {
   const width = photo.width;
   const height = photo.height;
 
