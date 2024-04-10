@@ -3,14 +3,10 @@ import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.css";
 import Accordion from "react-bootstrap/Accordion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import {
-  faSquarePhone,
-  faAt,
-  faArrowUp,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { SocialLinks } from "../socialLinks/SocialLinks";
 
 interface FooterProps {
   windowWidth: number;
@@ -32,6 +28,9 @@ export const FooterNavMain = () => {
           <Link to='/galeria'>{t("general.menu.gallery")}</Link>
         </Nav.Item>
         <Nav.Item>
+          <Link to='/oferta'>{t("general.menu.offers")}</Link>
+        </Nav.Item>
+        <Nav.Item>
           <Link to='/kontakt'>{t("general.menu.contact")}</Link>
         </Nav.Item>
       </Nav>
@@ -44,9 +43,6 @@ export const FooterNavOffers = () => {
   return (
     <>
       <Nav className='navigation footer-nav justify-content-start'>
-        <Nav.Item>
-          <Link to='/oferta'>{t("general.menu.offers")}</Link>
-        </Nav.Item>
         <Nav.Item>
           <Link to='/oferta'>1 oferta</Link>
         </Nav.Item>
@@ -63,36 +59,7 @@ export const FooterNavOffers = () => {
     </>
   );
 };
-export const SocialLinks = () => {
-  return (
-    <>
-      <section className='footer-social-links'>
-        <ul className='social-list' role='list'>
-          <li className='social-link'>
-            <a href='#' aria-label='Napisz nam na instagramie'>
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-          </li>
-          <li className='social-link'>
-            <a href='#' aria-label='Napisz nam na facebook'>
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-          </li>
-          <li className='social-link'>
-            <a href='#' aria-label='Zadzwoń'>
-              <FontAwesomeIcon icon={faSquarePhone} />
-            </a>
-          </li>
-          <li className='social-link'>
-            <a href='#' aria-label='Napisz maila'>
-              <FontAwesomeIcon icon={faAt} />
-            </a>
-          </li>
-        </ul>
-      </section>
-    </>
-  );
-};
+
 export const FooterNavigation: React.FC<FooterProps> = ({ windowWidth }) => {
   const { t } = useTranslation();
 

@@ -1,0 +1,62 @@
+.footer-social-links {
+  margin-top: 30px;
+
+  .social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .social-link {
+      position: relative;
+      box-shadow: $light-border;
+
+      &:hover a {
+        color: #fff;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: calc(100% + 1px);
+        height: calc(100% + 1px);
+        background: currentColor;
+        -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+          -webkit-clip-path 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+          clip-path 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+          clip-path 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),
+          -webkit-clip-path 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        pointer-events: none;
+        z-index: 1;
+      }
+      &:hover::before {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        transform: scaleY(1);
+      }
+
+      a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 60px;
+        color: $bgc-gray;
+        z-index: 1;
+        transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+        svg {
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}
