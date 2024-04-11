@@ -1,4 +1,12 @@
 {
+  "metaData": {
+    "descriptionHome": "description Home",
+    "descriptionAbout": "description About",
+    "descriptionGallery": "description Gallery",
+    "descriptionOffers": "description Offers",
+    "descriptionContact": "description Contact"
+  },
+
   "blogDataHomePage": {
     "blog1": {
       "name": "Polish",
@@ -58,11 +66,11 @@
     "readMore": "Czytaj więcej",
 
     "menu": {
-      "home": "strona główna",
-      "about": "o nas",
-      "gallery": "galeria",
-      "offers": "oferta",
-      "contact": "kontakt",
+      "home": "Strona główna",
+      "about": "O nas",
+      "gallery": "Galeria",
+      "offers": "Oferta",
+      "contact": "Kontakt",
       "policy": "Polityka prywatności",
       "scrollToUp": "przewiń w górę"
     },
@@ -76,6 +84,31 @@
       "contactUs": "skontaktuj się z nami",
       "moreAboutUs": "dowiedz się o nas więcej",
       "moreAboutOffers": "zobacz naszą ofertę"
+    }
+  },
+  "contact": {
+    "contactCompany": "kontakt z producentem mebli na wymiar arsmeble.",
+    "phoneNumber": "numer telefonu",
+    "workingHours": "czas pracy",
+    "weekdays": "pon-pt:",
+    "hoursWeekdays": " z 10:00 do 19:00",
+    "weekends": "sob:",
+    "hoursWeekends": " z 10:00 do 17:00",
+    "contactForm": {
+      "formHeader": "skontaktuj sie z nami przez formularz",
+      "name": "Wpisz swoje imię",
+      "email": "Wpisz swój email",
+      "number": "Wpisz swój numer telefonu",
+      "message": "Wpisz wiadomość",
+      "check": "Zapoznałem się z polityką prywatności",
+      "button": "wyślij wiadomość"
+    },
+    "contactFormError": {
+      "name": "Proszę wpisać imię",
+      "email": "Proszę wpisać email",
+      "number": "Proszę wpisać numer telefonu",
+      "message": "Proszę wpisać wiadomość",
+      "check": "Przed przesłaniem proszę wyrazić zgodę"
     }
   }
 }

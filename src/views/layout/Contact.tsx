@@ -13,15 +13,21 @@ import clockIcon from "../../img/icons/clock.webp";
 import { SocialLinks } from "../components/socialLinks/SocialLinks";
 
 const ContactInformation = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='common-info-container'>
       <div className='contact-item-container'>
         <div className='img-holder'>
-          <img src={phoneIcon} alt='' className='contact-img' />
+          <img
+            src={phoneIcon}
+            alt={t("contact.phoneNumber")}
+            className='contact-img'
+          />
         </div>
 
         <div className='contact-item'>
-          <h3 className='contact-header'>numer telefonu</h3>
+          <h3 className='contact-header'>{t("contact.phoneNumber")}</h3>
           <a href='tel:+48123123123'>+48123123123</a>
           <br />
           <a href='tel:+38093312323'>+38093312323</a>
@@ -29,7 +35,7 @@ const ContactInformation = () => {
       </div>
       <div className='contact-item-container'>
         <div className='img-holder'>
-          <img src={emailIcon} alt='' className='contact-img' />
+          <img src={emailIcon} alt='Email' className='contact-img' />
         </div>
 
         <div className='contact-item'>
@@ -39,15 +45,21 @@ const ContactInformation = () => {
       </div>
       <div className='contact-item-container'>
         <div className='img-holder'>
-          <img src={clockIcon} alt='' className='contact-img' />
+          <img
+            src={clockIcon}
+            alt={t("contact.workingHours")}
+            className='contact-img'
+          />
         </div>
         <div className='contact-item'>
-          <h3 className='contact-header'>czas pracy</h3>
+          <h3 className='contact-header'>{t("contact.workingHours")}</h3>
           <p>
-            <span>pon-pt:</span> з 10:00 до 19:00
+            <span>{t("contact.weekdays")}</span>
+            {t("contact.hoursWeekdays")}
           </p>
           <p>
-            <span>sob:</span> з 10:00 до 17:00
+            <span>{t("contact.weekends")}</span>
+            {t("contact.hoursWeekends")}
           </p>
         </div>
       </div>
@@ -67,9 +79,7 @@ export const Contact = () => {
       />
       <SecondaryHeader children={t("general.menu.contact")} />
       <section className='contact-form-container'>
-        <h2 className='main-title'>
-          Kontakt z producentem mebli na wymiar arsmeble.
-        </h2>
+        <h2 className='main-title'>{t("contact.contactCompany")}</h2>
         <div className='container'>
           <ContactInformation />
           <ContactForm />

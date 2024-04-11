@@ -1,8 +1,10 @@
+import "../../../i18next";
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { Button, Col, Form } from "react-bootstrap";
-import { ButtonMain } from "../ButtonMain";
+import { Button, Form } from "react-bootstrap";
 
 export const ContactForm = () => {
+  const { t } = useTranslation();
   const [validated, setValidated] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState("");
 
@@ -23,24 +25,32 @@ export const ContactForm = () => {
 
   return (
     <div className='form-component-container'>
-      <h2 className='form-header'>skontaktuj sie z nami przez formularz</h2>
+      <h2 className='form-header'>{t("contact.contactForm.formHeader")}</h2>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Group
           controlId='validationCustom01'
           className='form-input input-name'
         >
-          <Form.Control required type='text' placeholder='Name' />
+          <Form.Control
+            required
+            type='text'
+            placeholder={t("contact.contactForm.name")}
+          />
           <Form.Control.Feedback type='invalid'>
-            Please Enter name.
+            {t("contact.contactFormError.name")}
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group
           className='form-input input-email'
           controlId='exampleForm.ControlInput1'
         >
-          <Form.Control required type='email' placeholder='your email' />
+          <Form.Control
+            required
+            type='email'
+            placeholder={t("contact.contactForm.email")}
+          />
           <Form.Control.Feedback type='invalid'>
-            Please Enter email.
+            {t("contact.contactFormError.email")}
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className='form-input input-number'>
@@ -48,12 +58,12 @@ export const ContactForm = () => {
             type='tel'
             value={phoneNumber}
             onChange={handleChange}
-            placeholder='Enter number'
+            placeholder={t("contact.contactForm.number")}
             pattern='[0-9]{9,}'
             required
           />
           <Form.Control.Feedback type='invalid'>
-            Please Enter phone number.
+            {t("contact.contactFormError.number")}
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group
@@ -63,11 +73,11 @@ export const ContactForm = () => {
           <Form.Control
             as='textarea'
             rows={3}
-            placeholder='Enter text'
+            placeholder={t("contact.contactForm.message")}
             required
           />
           <Form.Control.Feedback type='invalid'>
-            Proszę wpisać treść wiadomości.
+            {t("contact.contactFormError.message")}
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group className='form-input input-check'>
@@ -75,13 +85,13 @@ export const ContactForm = () => {
             required
             type='switch'
             id='custom-switch'
-            label='Zapoznałem się z polityką prywatności'
-            feedback='You must agree before submitting.'
+            label={t("contact.contactForm.check")}
+            feedback={t("contact.contactFormError.check")}
             feedbackType='invalid'
           />
         </Form.Group>
         <Button type='submit' className='form-input form-button'>
-          wyslij wiadomość
+          {t("contact.contactForm.button")}
         </Button>
       </Form>
     </div>
