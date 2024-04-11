@@ -7,6 +7,7 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { SocialLinks } from "../socialLinks/SocialLinks";
+import { Navigation } from "../header/Navigation";
 
 interface FooterProps {
   windowWidth: number;
@@ -32,28 +33,6 @@ export const FooterNavMain = () => {
         </Nav.Item>
         <Nav.Item>
           <Link to='/kontakt'>{t("general.menu.contact")}</Link>
-        </Nav.Item>
-      </Nav>
-    </>
-  );
-};
-export const FooterNavOffers = () => {
-  const { t } = useTranslation();
-
-  return (
-    <>
-      <Nav className='navigation footer-nav justify-content-start'>
-        <Nav.Item>
-          <Link to='/oferta'>1 oferta</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to='/oferta'>2 oferta</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to='/oferta'>3 oferta</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to='/oferta'>4 oferta</Link>
         </Nav.Item>
       </Nav>
     </>
@@ -90,14 +69,6 @@ export const FooterNavigation: React.FC<FooterProps> = ({ windowWidth }) => {
               <FooterNavMain />
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey='2'>
-            <Accordion.Header>
-              {t("general.headersHome.moreAboutOffers")}
-            </Accordion.Header>
-            <Accordion.Body>
-              <FooterNavOffers />
-            </Accordion.Body>
-          </Accordion.Item>
           <Accordion.Item eventKey='0' className='scroll-to-up-button'>
             <Accordion.Header onClick={scrollToTop}>
               {t("general.menu.scrollToUp")}
@@ -107,15 +78,9 @@ export const FooterNavigation: React.FC<FooterProps> = ({ windowWidth }) => {
       ) : (
         <div className='footer-nav-decstop'>
           <div className='footer-nav-decstop-item'>
-            <h3>{t("general.headersHome.moreAboutUs")}</h3>
-            <FooterNavMain />
+            <Navigation />
           </div>
           <div className='footer-nav-decstop-item'>
-            <h3>{t("general.headersHome.moreAboutOffers")}</h3>
-            <FooterNavOffers />
-          </div>
-          <div className='footer-nav-decstop-item'>
-            <h3>{t("general.headersHome.contactUs")}</h3>
             <SocialLinks />
           </div>
           <div className='footer-nav-decstop-item scroll-to-up-button-decstop'>
