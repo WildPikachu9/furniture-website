@@ -1,32 +1,115 @@
 {
+  "metaData": {
+    "descriptionHome": "Найкращі індивідуальні меблі на замовлення у Кракові та околицях - створіть свій мрійний інтер'єр разом з нашою компанією. Запрошуємо ознайомитися з нашою пропозицією!",
+    "descriptionAbout": "Дізнайтеся більше про нашу меблеву компанію в Кракові. Ми створюємо високоякісні, індивідуально розроблені меблі на замовлення, що відповідають очікуванням наших клієнтів.",
+    "descriptionGallery": "Відвідайте нашу галерею, щоб побачити натхненні проекти наших меблів на замовлення. Перегляньте фотографії та знайдіть ідеї для облаштування свого будинку.",
+    "descriptionOffers": "Перевірте наші поточні пропозиції на меблі на замовлення в Кракові та околицях. Ми гарантуємо конкурентоспроможні ціни та відмінну якість. Знайдіть ідеальне рішення для свого будинку!",
+    "descriptionContact": "Зв'яжіться з нами, щоб замовити свої мрійні меблі на замовлення. Наша команда готова допомогти вам в реалізації проекту. Чекаємо на ваш телефон або електронну пошту."
+  },
+
   "blogDataHomePage": {
     "blog1": {
-      "name": "english",
+      "name": "Polish",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog2": {
-      "name": "blog post 0",
+      "name": "Blog post 0",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog3": {
-      "name": "blog post 1",
+      "name": "Blog post 1",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog4": {
-      "name": "blog post 2",
+      "name": "Blog post 2",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog5": {
-      "name": "blog post 3",
+      "name": "Blog post 3",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog6": {
-      "name": "blog post 6",
+      "name": "Blog post 6",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog7": {
-      "name": "blog post 7",
+      "name": "Blog post 7",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "offersDataHomePage": {
+    "offer1": {
+      "name": "Meble kuchenne",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer2": {
+      "name": "Meble lazienkowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer3": {
+      "name": "Meble biurowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer4": {
+      "name": "Meble mlodziezowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer5": {
+      "name": "szafy do szypialni",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "general": {
+    "seeMore": "Більше",
+    "readMore": "Читати далі",
+
+    "menu": {
+      "home": "Головна",
+      "about": "Про нас",
+      "gallery": "Галерея",
+      "offers": "Пропозиції",
+      "contact": "Контакти",
+      "policy": "Політика конфіденційності",
+      "scrollToUp": "прокрутити вгору"
+    },
+
+    "headersHome": {
+      "bannerText1": "меблі на замовлення",
+      "bannerText2": "інтер'єр",
+      "aboutSection": "дізнайтеся більше про нашу компанію",
+      "offersSection": "наші пропозиції",
+      "blogSection": "наш блог",
+      "contactUs": "зв'яжіться з нами",
+      "moreAboutUs": "дізнатися більше про нас",
+      "moreAboutOffers": "подивіться наші пропозиції"
+    }
+  },
+
+  "contact": {
+    "contactCompany": "контакт з виробником меблів на замовлення arsmeble.",
+    "phoneNumber": "телефон",
+    "workingHours": "години роботи",
+    "weekdays": "пн-пт:",
+    "hoursWeekdays": " з 10:00 до 19:00",
+    "weekends": "сб:",
+    "hoursWeekends": " з 10:00 до 17:00",
+    "contactForm": {
+      "formHeader": "зв'яжіться з нами через форму",
+      "name": "Введіть своє ім'я",
+      "email": "Введіть свою електронну адресу",
+      "number": "Введіть свій номер телефону",
+      "message": "Введіть повідомлення",
+      "check": "Я ознайомлений з політикою конфіденційності",
+      "button": "відправити повідомлення"
+    },
+    "contactFormError": {
+      "name": "Будь ласка, введіть ім'я",
+      "email": "Будь ласка, введіть електронну адресу",
+      "number": "Будь ласка, введіть номер телефону",
+      "message": "Будь ласка, введіть повідомлення",
+      "check": "Перед надсиланням, будь ласка, дайте згоду"
     }
   }
 }

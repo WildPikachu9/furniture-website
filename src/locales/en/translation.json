@@ -1,32 +1,115 @@
 {
+  "metaData": {
+    "descriptionHome": "Best custom furniture in Krakow and surrounding areas - create your dream interior with our company. We invite you to familiarize yourself with our offer!",
+    "descriptionAbout": "Learn more about our furniture company in Krakow. We create high-quality, individually designed custom furniture that meets the expectations of our clients.",
+    "descriptionGallery": "Visit our gallery to see inspiring projects of our custom furniture. Browse through photos and find ideas for furnishing your home.",
+    "descriptionOffers": "Check out our current offers for custom furniture in Krakow and surrounding areas. We guarantee competitive prices and excellent quality. Find the perfect solution for your home!",
+    "descriptionContact": "Contact us to order your dream custom furniture. Our team is ready to assist you in realizing your project. We look forward to your phone call or email."
+  },
+
   "blogDataHomePage": {
     "blog1": {
-      "name": "english",
+      "name": "Polish",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog2": {
-      "name": "blog post 0",
+      "name": "Blog post 0",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog3": {
-      "name": "blog post 1",
+      "name": "Blog post 1",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog4": {
-      "name": "blog post 2",
+      "name": "Blog post 2",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog5": {
-      "name": "blog post 3",
+      "name": "Blog post 3",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog6": {
-      "name": "blog post 6",
+      "name": "Blog post 6",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog7": {
-      "name": "blog post 7",
+      "name": "Blog post 7",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "offersDataHomePage": {
+    "offer1": {
+      "name": "Meble kuchenne",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer2": {
+      "name": "Meble lazienkowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer3": {
+      "name": "Meble biurowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer4": {
+      "name": "Meble mlodziezowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer5": {
+      "name": "szafy do szypialni",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "general": {
+    "seeMore": "See More",
+    "readMore": "Read More",
+
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "gallery": "Gallery",
+      "offers": "Offers",
+      "contact": "Contact",
+      "policy": "Privacy Policy",
+      "scrollToUp": "scroll to top"
+    },
+
+    "headersHome": {
+      "bannerText1": "custom furniture",
+      "bannerText2": "interior design",
+      "aboutSection": "learn more about our company",
+      "offersSection": "our offers",
+      "blogSection": "our blog",
+      "contactUs": "get in touch with us",
+      "moreAboutUs": "learn more about us",
+      "moreAboutOffers": "see our offers"
+    }
+  },
+
+  "contact": {
+    "contactCompany": "contact the custom furniture manufacturer arsmeble.",
+    "phoneNumber": "phone number",
+    "workingHours": "working hours",
+    "weekdays": "mon-fri:",
+    "hoursWeekdays": " from 10:00 to 19:00",
+    "weekends": "sat:",
+    "hoursWeekends": " from 10:00 to 17:00",
+    "contactForm": {
+      "formHeader": "contact us through the form",
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "number": "Enter your phone number",
+      "message": "Enter message",
+      "check": "I have read the privacy policy",
+      "button": "send message"
+    },
+    "contactFormError": {
+      "name": "Please enter your name",
+      "email": "Please enter your email",
+      "number": "Please enter your phone number",
+      "message": "Please enter a message",
+      "check": "Please consent before sending"
     }
   }
 }

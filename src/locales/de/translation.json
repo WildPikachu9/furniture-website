@@ -1,32 +1,115 @@
 {
+  "metaData": {
+    "descriptionHome": "Die besten maßgefertigten Möbel in Krakau und Umgebung - gestalten Sie Ihr Trauminterieur mit unserem Unternehmen. Wir laden Sie ein, sich mit unserem Angebot vertraut zu machen!",
+    "descriptionAbout": "Erfahren Sie mehr über unser Möbelunternehmen in Krakau. Wir kreieren hochwertige, individuell gestaltete maßgefertigte Möbel, die die Erwartungen unserer Kunden erfüllen.",
+    "descriptionGallery": "Besuchen Sie unsere Galerie, um inspirierende Projekte unserer maßgefertigten Möbel zu sehen. Durchstöbern Sie Fotos und finden Sie Ideen für die Einrichtung Ihres Zuhauses.",
+    "descriptionOffers": "Schauen Sie sich unsere aktuellen Angebote für maßgefertigte Möbel in Krakau und Umgebung an. Wir garantieren wettbewerbsfähige Preise und hervorragende Qualität. Finden Sie die perfekte Lösung für Ihr Zuhause!",
+    "descriptionContact": "Kontaktieren Sie uns, um Ihre Traummaßmöbel zu bestellen. Unser Team steht bereit, um Ihnen bei der Realisierung Ihres Projekts zu helfen. Wir freuen uns auf Ihren Anruf oder Ihre E-Mail."
+  },
+
   "blogDataHomePage": {
     "blog1": {
-      "name": "english",
+      "name": "Polish",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog2": {
-      "name": "blog post 0",
+      "name": "Blog post 0",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog3": {
-      "name": "blog post 1",
+      "name": "Blog post 1",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog4": {
-      "name": "blog post 2",
+      "name": "Blog post 2",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog5": {
-      "name": "blog post 3",
+      "name": "Blog post 3",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog6": {
-      "name": "blog post 6",
+      "name": "Blog post 6",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
     },
     "blog7": {
-      "name": "blog post 7",
+      "name": "Blog post 7",
       "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "offersDataHomePage": {
+    "offer1": {
+      "name": "Meble kuchenne",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer2": {
+      "name": "Meble lazienkowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer3": {
+      "name": "Meble biurowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer4": {
+      "name": "Meble mlodziezowe",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    },
+    "offer5": {
+      "name": "szafy do szypialni",
+      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+    }
+  },
+
+  "general": {
+    "seeMore": "Mehr anzeigen",
+    "readMore": "Weiterlesen",
+
+    "menu": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "gallery": "Galerie",
+      "offers": "Angebote",
+      "contact": "Kontakt",
+      "policy": "Datenschutzrichtlinie",
+      "scrollToUp": "nach oben scrollen"
+    },
+
+    "headersHome": {
+      "bannerText1": "Maßgeschreinerte Möbel",
+      "bannerText2": "Innenarchitektur",
+      "aboutSection": "Erfahren Sie mehr über unser Unternehmen",
+      "offersSection": "Unsere Angebote",
+      "blogSection": "Unser Blog",
+      "contactUs": "Kontaktieren Sie uns",
+      "moreAboutUs": "Erfahren Sie mehr über uns",
+      "moreAboutOffers": "Unsere Angebote anzeigen"
+    }
+  },
+
+  "contact": {
+    "contactCompany": "Kontaktieren Sie den Hersteller von maßgeschneiderten Möbeln arsmeble.",
+    "phoneNumber": "Telefonnummer",
+    "workingHours": "Öffnungszeiten",
+    "weekdays": "Mo-Fr:",
+    "hoursWeekdays": " von 10:00 bis 19:00 Uhr",
+    "weekends": "Sa:",
+    "hoursWeekends": " von 10:00 bis 17:00 Uhr",
+    "contactForm": {
+      "formHeader": "Kontaktieren Sie uns über das Formular",
+      "name": "Geben Sie Ihren Namen ein",
+      "email": "Geben Sie Ihre E-Mail-Adresse ein",
+      "number": "Geben Sie Ihre Telefonnummer ein",
+      "message": "Nachricht eingeben",
+      "check": "Ich habe die Datenschutzrichtlinie gelesen",
+      "button": "Nachricht senden"
+    },
+    "contactFormError": {
+      "name": "Bitte geben Sie Ihren Namen ein",
+      "email": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+      "number": "Bitte geben Sie Ihre Telefonnummer ein",
+      "message": "Bitte geben Sie eine Nachricht ein",
+      "check": "Bitte geben Sie Ihr Einverständnis vor dem Senden"
     }
   }
 }

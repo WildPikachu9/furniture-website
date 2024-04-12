@@ -1,10 +1,10 @@
 {
   "metaData": {
-    "descriptionHome": "description Home",
-    "descriptionAbout": "description About",
-    "descriptionGallery": "description Gallery",
-    "descriptionOffers": "description Offers",
-    "descriptionContact": "description Contact"
+    "descriptionHome": "Najlepsze meble na wymiar w Krakowie i okolice - stwórz swoje wymarzone wnętrze z naszą firmą. Zapraszamy do zapoznania się z naszą ofertą!",
+    "descriptionAbout": "Dowiedz się więcej o naszej firmie meblarskiej w Krakowie. Tworzymy wysokiej jakości, indywidualnie zaprojektowane meble na wymiar, spełniające oczekiwania naszych klientów.",
+    "descriptionGallery": "Odwiedź naszą galerię, aby zobaczyć inspirujące projekty naszych mebli na wymiar. Przejrzyj zdjęcia i znajdź pomysły na urządzenie swojego domu.",
+    "descriptionOffers": "Sprawdź nasze aktualne oferty na meble na wymiar w Krakowie i okolice. Zapewniamy konkurencyjne ceny i doskonałą jakość. Znajdź idealne rozwiązanie dla swojego domu!",
+    "descriptionContact": "Skontaktuj się z nami, aby zamówić swoje wymarzone meble na wymiar. Nasz zespół jest gotowy, aby pomóc Ci w realizacji projektu. Czekamy na Twój telefon lub e-mail."
   },
 
   "blogDataHomePage": {
@@ -86,6 +86,7 @@
       "moreAboutOffers": "zobacz naszą ofertę"
     }
   },
+
   "contact": {
     "contactCompany": "kontakt z producentem mebli na wymiar arsmeble.",
     "phoneNumber": "numer telefonu",
