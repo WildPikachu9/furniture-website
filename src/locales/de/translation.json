@@ -111,5 +111,23 @@
       "message": "Bitte geben Sie eine Nachricht ein",
       "check": "Bitte geben Sie Ihr Einverständnis vor dem Senden"
     }
+  },
+
+  "about": {
+    "article1": "Auf dem Markt für maßgefertigte Möbel sind wir seit über fünf Jahren tätig. Wir legen Wert darauf, dass du eine exklusive Küche, einen Schrank oder Büromöbel erhältst, die nicht nur deinen ästhetischen Geschmack befriedigen, sondern auch eine ideale komfortable Lösung für Arbeit und Leben bieten. Jeder Raum erfordert einen individuellen Ansatz, daher bieten wir eine personalisierte Betreuung für jedes Projekt an.",
+    "article2": "Von klassischem bis modernem Design - wir sind bereit, jede deiner Ideen umzusetzen und einen umfassenden Service anzubieten, einschließlich Lieferung und Montage der Möbel. Bei der Herstellung der Möbel verwenden wir nur geprüfte und langlebige Materialien. Wir arbeiten mit Unternehmen zusammen, die weltweit für ihre Qualität bekannt sind.",
+    "article3": "Vertraue uns deine Ideen an, und wir werden alle Anstrengungen unternehmen, um deinen Raum komfortabel und stilvoll zu gestalten.",
+    "headerHistory": "unsere Geschichte",
+    "headerProcess": "Wie sieht der Bestellvorgang bei uns aus?",
+    "workProcess": {
+      "contact": "Kontaktiere uns",
+      "contactDesc": "Sie können uns telefonisch, über soziale Medien oder durch Ausfüllen des Kontaktformulars kontaktieren.",
+      "consultation": "Beratung und Kostenschätzung",
+      "consultationDesc": "Beratung des Kunden bezüglich des Aussehens und der Kostenabschätzung.",
+      "production": "Möbelproduktion",
+      "productionDesc": "Wir beginnen mit der Arbeit an Ihren Möbeln.",
+      "delivery": "Lieferung und Montage",
+      "deliveryDesc": "Nach Abschluss der Möbelproduktion liefern wir sie zu Ihnen und übernehmen die Montage vor Ort."
+    }
   }
 }

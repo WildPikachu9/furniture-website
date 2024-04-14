@@ -111,5 +111,23 @@
       "message": "Please enter a message",
       "check": "Please consent before sending"
     }
+  },
+
+  "about": {
+    "article1": "In the custom furniture manufacturing market, we have been operating for over five years. We care about ensuring that you receive an exclusive kitchen, wardrobe, or office furniture that not only satisfies your aesthetic tastes but also becomes the perfect comfortable solution for work and life. Each space requires a special approach, so we offer personalized treatment for each project.",
+    "article2": "From classic to modern design - we are ready to realize any of your concepts and provide full service, including furniture delivery and installation. During furniture production, we use only tested and durable materials. We collaborate with companies known for their quality worldwide.",
+    "article3": "Entrust us with your ideas, and we will make every effort to make your space comfortable and stylish.",
+    "headerHistory": "the history of our company",
+    "headerProcess": "what does the order process look like with us?",
+    "workProcess": {
+      "contact": "call / message",
+      "contactDesc": "You can contact us by phone, social media, or by filling out the contact form.",
+      "consultation": "consultation and estimation",
+      "consultationDesc": "Consultation with the client regarding the appearance and cost estimation.",
+      "production": "furniture production",
+      "productionDesc": "We start working on your furniture.",
+      "delivery": "delivery and assembly",
+      "deliveryDesc": "After completing the production of the furniture, we deliver it to you and handle the assembly on-site."
+    }
   }
 }

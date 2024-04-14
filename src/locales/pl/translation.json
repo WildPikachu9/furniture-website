@@ -111,5 +111,23 @@
       "message": "Proszę wpisać wiadomość",
       "check": "Przed przesłaniem proszę wyrazić zgodę"
     }
+  },
+
+  "about": {
+    "article1": "Na rynku produkcji mebli na zamówienie działamy od ponad pięciu lat. Dbamy o to, abyś otrzymał/a ekskluzywną kuchnię, szafę czy meble biurowe, które nie tylko zaspokoją Twój gust estetyczny, ale także będą idealnym rozwiązaniem komfortowym do pracy i życia. Każda przestrzeń wymaga indywidualnego podejścia, dlatego proponujemy spersonalizowane podejście do każdego projektu.",
+    "article2": "Od klasycznego do nowoczesnego designu - jesteśmy gotowi zrealizować każdą Twoją koncepcję i zapewnić kompleksową obsługę, obejmującą dostawę i montaż mebli. Podczas produkcji mebli korzystamy wyłącznie z materiałów sprawdzonych i trwałych. Współpracujemy z firmami, które są znane ze swojej jakości na całym świecie.",
+    "article3": "Zaufaj nam swoim pomysłom, a my włożymy wszelkie wysiłki, aby uczynić Twoją przestrzeń komfortową i stylową.",
+    "headerHistory": "historia naszej firmy",
+    "headerProcess": "jak wygląda proces składania zamówienia u nas?",
+    "workProcess": {
+      "contact": "kontakt z nami",
+      "contactDesc": "Możesz się z nami skontaktować telefonicznie, przez media społecznościowe lub wypełniając formularz kontaktowy.",
+      "consultation": "konsultacja i kosztorysowanie",
+      "consultationDesc": "Konsultacja z klientem w sprawie wyglądu oraz obliczenie kosztów.",
+      "production": "produkcja mebli",
+      "productionDesc": "Rozpoczynamy pracę nad Twoimi meblami.",
+      "delivery": "dostawa i montaż",
+      "deliveryDesc": "Po ukończeniu produkcji mebli dostarczamy je do Ciebie i zajmujemy się montażem na miejscu."
+    }
   }
 }
