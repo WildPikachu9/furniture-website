@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/furniture-website/static/css/main.27a62bda.css",
+    "main.js": "/furniture-website/static/js/main.e0909a5e.js",
+    "static/media/img3.jpg": "/furniture-website/static/media/img3.fc134b5d78a08643488e.jpg",
+    "static/media/img2.jpg": "/furniture-website/static/media/img2.e8307bd74edff4b60f5d.jpg",
+    "static/media/img1.jpg": "/furniture-website/static/media/img1.cc17216ec9fbefa7f03f.jpg",
+    "static/media/clock.webp": "/furniture-website/static/media/clock.8f064e5c30d613fa896b.webp",
+    "static/media/phone.webp": "/furniture-website/static/media/phone.fcdb2f92e71c1b0c9365.webp",
+    "static/media/communication.webp": "/furniture-website/static/media/communication.7da37c5bbb9886133806.webp",
+    "static/media/email.webp": "/furniture-website/static/media/email.df7891b3c883200ac11c.webp",
+    "static/media/markerIcon.webp": "/furniture-website/static/media/markerIcon.1e37b9211d6eb8ba1ff8.webp",
+    "static/media/furniture-process.webp": "/furniture-website/static/media/furniture-process.c7ef0e71900ec96c271c.webp",
+    "static/media/delivery.webp": "/furniture-website/static/media/delivery.ad72ac6025579b7d24c3.webp",
+    "static/media/project.webp": "/furniture-website/static/media/project.fd7b68ca19a80202c7e2.webp",
+    "static/media/slick.svg": "/furniture-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/furniture-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/furniture-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/furniture-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/furniture-website/index.html",
+    "main.27a62bda.css.map": "/furniture-website/static/css/main.27a62bda.css.map",
+    "main.e0909a5e.js.map": "/furniture-website/static/js/main.e0909a5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27a62bda.css",
+    "static/js/main.e0909a5e.js"
+  ]
+}
