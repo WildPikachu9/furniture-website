@@ -5,6 +5,14 @@ h2.main-title {
   font-weight: 300;
 }
 
+h3.main-title {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: $baseline + 8px;
+}
+
 .links-button {
   margin: 20px 0;
   padding: 10px 20px;
