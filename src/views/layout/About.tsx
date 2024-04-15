@@ -14,7 +14,7 @@ export const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='about-layout-container'>
+    <div className='about-layout-container layout-container'>
       <MetaData
         metaDesc={t("metaData.descriptionAbout")}
         title={t("general.menu.about")}

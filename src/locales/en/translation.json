@@ -129,5 +129,14 @@
       "delivery": "delivery and assembly",
       "deliveryDesc": "After completing the production of the furniture, we deliver it to you and handle the assembly on-site."
     }
+  },
+
+  "offers": {
+    "offer": "we offer",
+    "design": "Individual approach in design",
+    "details": "Thoughtful details",
+    "accessories": "Quality accessories",
+    "guarancee": "5 years warranty",
+    "delivery": "We deliver and install"
   }
 }

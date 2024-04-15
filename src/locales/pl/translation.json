@@ -129,5 +129,14 @@
       "delivery": "dostawa i montaż",
       "deliveryDesc": "Po ukończeniu produkcji mebli dostarczamy je do Ciebie i zajmujemy się montażem na miejscu."
     }
+  },
+
+  "offers": {
+    "offer": "oferujemy",
+    "design": "indywidualne podejście do projektowania",
+    "details": "przemyślane szczegóły",
+    "accessories": "jakościowe akcesoria",
+    "guarancee": "5 lat gwarancji",
+    "delivery": "dostarczamy i montujemy"
   }
 }

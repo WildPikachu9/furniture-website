@@ -129,5 +129,14 @@
       "delivery": "Lieferung und Montage",
       "deliveryDesc": "Nach Abschluss der Möbelproduktion liefern wir sie zu Ihnen und übernehmen die Montage vor Ort."
     }
+  },
+
+  "offers": {
+    "offer": "wir bieten an",
+    "design": "Individueller Ansatz im Design",
+    "details": "Durchdachte Details",
+    "accessories": "Qualitätszubehör",
+    "guarancee": "5 Jahre Garantie",
+    "delivery": "Wir liefern und montieren"
   }
 }
