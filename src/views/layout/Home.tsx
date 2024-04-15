@@ -22,10 +22,7 @@ export const HomeCarousel = () => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} fade>
       <Carousel.Item>
-        <div
-          className='d-block w-100 carousel-img'
-          style={{ backgroundImage: "url(/img/img1.jpg)" }}
-        ></div>
+        <div className='d-block w-100 carousel-img carousel-img-first'></div>
         <Carousel.Caption className='carousel-desc'>
           <h1 className='carousel-text'>
             {t("general.headersHome.bannerText1")}
@@ -36,10 +33,7 @@ export const HomeCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <div
-          className='d-block w-100 carousel-img'
-          style={{ backgroundImage: "url(/img/img2.jpg)" }}
-        ></div>
+        <div className='d-block w-100 carousel-img carousel-img-second'></div>
         <Carousel.Caption className='carousel-desc'>
           <h1 className='carousel-text'>
             {t("general.headersHome.bannerText2")}

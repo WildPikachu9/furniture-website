@@ -10,6 +10,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    &.carousel-img-first {
+      background-image: url(../../img/img1.jpg);
+    }
+    &.carousel-img-second {
+      background-image: url(../../img/img2.jpg);
+    }
   }
 
   .carousel-desc {
