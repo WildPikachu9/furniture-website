@@ -10,6 +10,7 @@ import designIcon from "../../img/icons/design.webp";
 import projectIcon from "../../img/icons/project.webp";
 import guaranteeIcon from "../../img/icons/guarantee.webp";
 import deliveryIcon from "../../img/icons/delivery.webp";
+import { TabsComponent } from "../components/tabsComponent/TabsComponent";
 
 export const Offers = () => {
   const { t } = useTranslation();
@@ -45,6 +46,8 @@ export const Offers = () => {
           </div>
         </div>
       </section>
+
+      <TabsComponent />
       <Footer />
     </div>
   );
