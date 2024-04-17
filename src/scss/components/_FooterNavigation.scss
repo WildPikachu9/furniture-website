@@ -63,7 +63,6 @@
         background-color: transparent;
         box-shadow: $light-border;
         overflow: hidden;
-        transition: 0.5s;
 
         svg {
           height: 35px;
@@ -71,7 +70,7 @@
           vertical-align: middle;
         }
         &:hover svg {
-          animation: aniArrow01 0.7s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
+          animation: aniArrow01 0.5s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
         }
       }
     }

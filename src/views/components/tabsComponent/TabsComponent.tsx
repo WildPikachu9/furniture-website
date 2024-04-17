@@ -25,7 +25,8 @@ export const TabsComponent = () => {
                 </Link>
               </div>
               <div className='offer-desc-container'>
-                <h3 className='main-title'>{item.name} na wymiar</h3>
+                <h3 className='main-title'>{item.header}</h3>
+                <p>{item.desc}</p>
                 <p>{item.descMore}</p>
               </div>
             </section>
