@@ -4,16 +4,17 @@ import { useTranslation } from "react-i18next";
 import { Footer } from "../components/footer/Footer";
 import { SecondaryHeader } from "../components/secondaryHeader/SecondaryHeader";
 import { MetaData } from "../components/metaData/MetaData";
+import { TabsComponent } from "../components/tabsComponent/TabsComponent";
 
 import creativityIcon from "../../img/icons/creativity.webp";
 import designIcon from "../../img/icons/design.webp";
 import projectIcon from "../../img/icons/project.webp";
 import guaranteeIcon from "../../img/icons/guarantee.webp";
 import deliveryIcon from "../../img/icons/delivery.webp";
-import { TabsComponent } from "../components/tabsComponent/TabsComponent";
 
 export const Offers = () => {
   const { t } = useTranslation();
+
   return (
     <div className='offers-layout-container layout-container'>
       <MetaData
