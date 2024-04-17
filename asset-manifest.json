@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/furniture-website/static/css/main.af07f2be.css",
-    "main.js": "/furniture-website/static/js/main.2bc4d5c7.js",
+    "main.css": "/furniture-website/static/css/main.27305808.css",
+    "main.js": "/furniture-website/static/js/main.34ad89f0.js",
     "static/media/img3.jpg": "/furniture-website/static/media/img3.fc134b5d78a08643488e.jpg",
     "static/media/img2.jpg": "/furniture-website/static/media/img2.e8307bd74edff4b60f5d.jpg",
     "static/media/img1.jpg": "/furniture-website/static/media/img1.cc17216ec9fbefa7f03f.jpg",
@@ -21,11 +21,11 @@
     "static/media/slick.ttf": "/furniture-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/furniture-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/furniture-website/index.html",
-    "main.af07f2be.css.map": "/furniture-website/static/css/main.af07f2be.css.map",
-    "main.2bc4d5c7.js.map": "/furniture-website/static/js/main.2bc4d5c7.js.map"
+    "main.27305808.css.map": "/furniture-website/static/css/main.27305808.css.map",
+    "main.34ad89f0.js.map": "/furniture-website/static/js/main.34ad89f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.af07f2be.css",
-    "static/js/main.2bc4d5c7.js"
+    "static/css/main.27305808.css",
+    "static/js/main.34ad89f0.js"
   ]
 }
