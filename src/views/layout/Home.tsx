@@ -5,9 +5,9 @@ import "../../index.scss";
 import Carousel from "react-bootstrap/Carousel";
 import { ButtonMain } from "../components/ButtonMain";
 import { Link } from "react-router-dom";
-import { CardSlider } from "../components/CardSlider";
+import { CardSlider, ImgSlider } from "../components/CardSlider";
 import { OffersDataHomePage } from "../../furnitureData/OffersDataHomePage";
-import { BlogDataHomePage } from "../../furnitureData/BlogDataHomePage";
+import { ReviewDataHomePage } from "../../furnitureData/ReviewDataHomePage";
 import { Footer } from "../components/footer/Footer";
 import { MetaData } from "../components/metaData/MetaData";
 
@@ -49,7 +49,7 @@ export const HomeCarousel = () => {
 
 export const Home = () => {
   const { t } = useTranslation();
-  const blogs = BlogDataHomePage();
+  const reviews = ReviewDataHomePage();
   const offers = OffersDataHomePage();
 
   return (
@@ -72,8 +72,8 @@ export const Home = () => {
         </div>
       </section>
       <section className='blog-component-container'>
-        <h2 className='main-title'>{t("general.headersHome.blogSection")}</h2>
-        <CardSlider data={blogs} />
+        <h2 className='main-title'>{t("general.headersHome.reviewSection")}</h2>
+        <ImgSlider dataReview={reviews} />
       </section>
       <Footer />
     </div>

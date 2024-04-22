@@ -6,7 +6,7 @@
     no-repeat padding-box;
   width: 100%;
   z-index: 10;
-  transition: all 0.4s;
+  transition: all 0.8s;
 
   &.hidden {
     transform: translateY(-100%);
@@ -14,9 +14,11 @@
 
   &:hover {
     background: #fff;
+    transition: all 0.8s;
     .header-logo,
     .header-logo .navbar-button svg {
       color: $txt;
+      transition: all 0.8s;
     }
   }
   .header-logo {
@@ -31,6 +33,7 @@
 
     & > * {
       margin: 5px 10px;
+      transition: all 0.8s;
     }
     .navbar-button {
       background-color: transparent;

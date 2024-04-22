@@ -64,6 +64,7 @@
   "general": {
     "seeMore": "See More",
     "readMore": "Read More",
+    "seeMoreImages": "see more photos of our projects",
 
     "menu": {
       "home": "Home",
@@ -80,7 +81,7 @@
       "bannerText2": "interior design",
       "aboutSection": "learn more about our company",
       "offersSection": "our offers",
-      "blogSection": "our blog",
+      "reviewSection": "our reviews",
       "contactUs": "get in touch with us",
       "moreAboutUs": "learn more about us",
       "moreAboutOffers": "see our offers"
