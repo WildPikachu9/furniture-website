@@ -4,6 +4,7 @@ import { About } from "../views/layout/About";
 import { Offers } from "../views/layout/Offers";
 import { Gallery } from "../views/layout/Gallery";
 import { Contact } from "../views/layout/Contact";
+import { PrivacyPolicy } from "../views/layout/PrivacyPolicy";
 
 export const AppRoutes = () => {
   return (
@@ -13,6 +14,7 @@ export const AppRoutes = () => {
       <Route path='/oferta' element={<Offers />} />
       <Route path='/galeria' element={<Gallery />} />
       <Route path='/kontakt' element={<Contact />} />
+      <Route path='/privacy-policy' element={<PrivacyPolicy />} />
     </Routes>
   );
 };

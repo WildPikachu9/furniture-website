@@ -1,0 +1,46 @@
+.privacy-component-container {
+  .policy-desc-container {
+    margin: 30px 35px;
+    text-align: justify;
+    letter-spacing: 1px;
+
+    .policy-article {
+      p {
+        font-size: $baseline;
+      }
+    }
+  }
+
+  @media all and (min-width: $extra-small) {
+    .policy-desc-container {
+      .policy-article {
+        p {
+          font-size: $baseline + 4px;
+        }
+      }
+    }
+  }
+  @media all and (min-width: $small) {
+    .policy-desc-container {
+      margin: 30px 50px;
+    }
+  }
+  @media all and (min-width: $large) {
+    .policy-desc-container {
+      margin: 50px 100px;
+      .policy-article {
+        h3 {
+          text-align: left;
+        }
+      }
+    }
+  }
+  @media all and (min-width: $extra-large) {
+    .policy-desc-container {
+      margin: 50px 250px;
+      .policy-article {
+        margin: 20px 0;
+      }
+    }
+  }
+}
