@@ -139,5 +139,35 @@
     "accessories": "Quality accessories",
     "guarancee": "5 years warranty",
     "delivery": "We deliver and install"
+  },
+
+  "policy": {
+    "article1": {
+      "header": "Privacy Policy www.arsmeble.com",
+      "text": "Protecting users' privacy is a top priority for IHOR HUK ARSMEBLE. We ensure high standards of personal data protection and security in their processing."
+    },
+    "article2": {
+      "header": "Personal Data",
+      "text": "User personal data, such as name, surname, email address, phone number, address, and message content, are collected only with the user's consent. We process them for communication with the user, presenting commercial offers, and sending information electronically. The user has the right to withdraw consent at any time."
+    },
+    "article3": {
+      "header": "User Rights",
+      "text": "The user has the right to access their data, correct it, delete it, and object to its processing. They can also lodge a complaint with the supervisory authority."
+    },
+    "article4": {
+      "header": "cookies",
+      "text": "The www.arsmeble.com website uses cookies to optimize website use and collect statistics. Users can manage cookies through their web browser settings."
+    },
+    "article5": {
+      "header": "Security of Personal Data",
+      "text": "We provide appropriate security measures for personal data and regularly monitor systems to detect threats."
+    },
+    "article6": {
+      "text": "For questions about the privacy policy, please contact us at: arsmeble@gmail.com"
+    },
+    "article7": {
+      "header": "Update",
+      "text": "Last privacy policy update: 01.05.2024."
+    }
   }
 }

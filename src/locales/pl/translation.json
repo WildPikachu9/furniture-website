@@ -149,5 +149,35 @@
     "accessories": "jakościowe akcesoria",
     "guarancee": "5 lat gwarancji",
     "delivery": "dostarczamy i montujemy"
+  },
+
+  "policy": {
+    "article1": {
+      "header": "Polityka prywatności serwisu www.arsmeble.com",
+      "text": "Ochrona prywatności Użytkowników jest dla IHOR HUK ARSMEBLE. priorytetem. Zapewniamy wysokie standardy ochrony danych osobowych i bezpieczeństwa ich przetwarzania."
+    },
+    "article2": {
+      "header": "Dane osobowe",
+      "text": "Dane osobowe Użytkowników, takie jak imię, nazwisko, adres e-mail, numer telefonu, adres oraz treść wiadomości, są zbierane wyłącznie za zgodą Użytkownika. Przetwarzamy je w celu komunikacji z Użytkownikiem, przedstawiania ofert handlowych oraz przesyłania informacji drogą elektroniczną. Użytkownik ma prawo w każdym czasie wycofać udzieloną zgodę."
+    },
+    "article3": {
+      "header": "Prawa Użytkownika",
+      "text": "Użytkownik ma prawo dostępu do swoich danych, ich poprawiania, usuwania oraz wniesienia sprzeciwu wobec ich przetwarzania. Może również złożyć skargę do organu nadzorczego."
+    },
+    "article4": {
+      "header": "Pliki cookies",
+      "text": "Serwis www.arsmeble.com używa plików cookies w celu optymalizacji korzystania z witryny oraz zbierania statystyk. Użytkownik może zarządzać plikami cookies za pomocą ustawień przeglądarki internetowej."
+    },
+    "article5": {
+      "header": "Bezpieczeństwo danych osobowych",
+      "text": "Zapewniamy odpowiednie środki bezpieczeństwa danych osobowych oraz regularne monitorowanie systemów w celu wykrycia zagrożeń."
+    },
+    "article6": {
+      "text": "W razie pytań dotyczących polityki prywatności prosimy o kontakt pod adresem: arsmeble@gmail.com"
+    },
+    "article7": {
+      "header": "Aktualizacja",
+      "text": "Ostatnia aktualizacja polityki prywatności: 01.05.2024."
+    }
   }
 }
