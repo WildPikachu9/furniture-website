@@ -74,6 +74,16 @@ export const Home = () => {
       <section className='blog-component-container'>
         <h2 className='main-title'>{t("general.headersHome.reviewSection")}</h2>
         <ImgSlider dataReview={reviews} />
+        <h2 className='main-title'>jakim było twoje doświadczenie z nami?</h2>
+        <ButtonMain>
+          <Link
+            to={
+              "https://google.com/maps/place/Grand+Parade+(part+of+William+Hill)/@50.0542275,19.9565958,17z/data=!3m1!4b1!4m6!3m5!1s0x47165b0026727b55:0xc60bc6c5c600d938!8m2!3d50.0542275!4d19.9591707!16s%2Fg%2F11g6j7frds?authuser=0&entry=ttu"
+            }
+          >
+            zostawić opinie
+          </Link>
+        </ButtonMain>
       </section>
       <Footer />
     </div>
