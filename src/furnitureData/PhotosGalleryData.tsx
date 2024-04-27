@@ -44,6 +44,35 @@ import bedroom11 from "../img/bedroom/polki-na-ksiazki.webp";
 import bedroom12 from "../img/bedroom/recepcia-1.webp";
 import bedroom13 from "../img/bedroom/recepcja-2.webp";
 import bedroom14 from "../img/bedroom/recepcja-3.webp";
+import bedroom15 from "../img/bedroom/dzieciece-meble-1.webp";
+import bedroom16 from "../img/bedroom/dzieciece-meble-2.webp";
+
+import bathroom1 from "../img/bathroom/lazienka-1.webp";
+import bathroom2 from "../img/bathroom/lazienka-2.webp";
+import bathroom3 from "../img/bathroom/lazienka-3.webp";
+import bathroom4 from "../img/bathroom/lazienka-4.webp";
+import bathroom5 from "../img/bathroom/photo_2024-04-26_10-11-13.webp";
+import bathroom6 from "../img/bathroom/photo_2024-04-26_10-16-01.webp";
+import bathroom7 from "../img/bathroom/photo_2024-04-26_10-16-09.webp";
+import bathroom8 from "../img/bathroom/photo_2024-04-26_10-16-19.webp";
+import bathroom9 from "../img/bathroom/photo_2024-04-26_10-16-26.webp";
+import bathroom10 from "../img/bathroom/photo_2024-04-26_10-17-02.webp";
+import bathroom11 from "../img/bathroom/photo_2024-04-26_10-17-50.webp";
+import bathroom12 from "../img/bathroom/photo_2024-04-26_10-22-32.webp";
+
+import attic1 from "../img/attic/meble-skos-1.webp";
+import attic2 from "../img/attic/meble-skos-2.webp";
+import attic3 from "../img/attic/zabudowa-skosow-1.webp";
+import attic4 from "../img/attic//zabudowa-skosow-2.webp";
+import attic5 from "../img/attic/zabudowa-skosow-3.webp";
+
+import hall1 from "../img/hall/przedpokoj-1.webp";
+import hall2 from "../img/hall/przedpokoj-2.webp";
+import hall3 from "../img/hall/przedpokoj-3.webp";
+import hall4 from "../img/hall/przedpokoj-4.webp";
+import hall5 from "../img/hall/photo_2024-04-26_10-18-50.webp";
+import hall6 from "../img/hall/photo_2024-04-26_10-19-04.webp";
+import hall7 from "../img/hall/photo_2024-04-26_10-23-25.webp";
 
 export const localPhotos = [
   { src: kitchen2, width: 1080, height: 800 },
@@ -92,4 +121,33 @@ export const localPhotos = [
   { src: bedroom12, width: 1080, height: 721 },
   { src: bedroom13, width: 1080, height: 721 },
   { src: bedroom14, width: 1080, height: 721 },
+  { src: bedroom15, width: 1080, height: 1620 },
+  { src: bedroom16, width: 1080, height: 1620 },
+
+  { src: bathroom1, width: 1080, height: 721 },
+  { src: bathroom2, width: 1080, height: 1620 },
+  { src: bathroom3, width: 1080, height: 721 },
+  { src: bathroom4, width: 1080, height: 721 },
+  { src: bathroom5, width: 1080, height: 721 },
+  { src: bathroom6, width: 1080, height: 1620 },
+  { src: bathroom7, width: 1080, height: 1620 },
+  { src: bathroom8, width: 1080, height: 721 },
+  { src: bathroom9, width: 1080, height: 721 },
+  { src: bathroom10, width: 1080, height: 1620 },
+  { src: bathroom11, width: 1080, height: 1620 },
+  { src: bathroom12, width: 1080, height: 1620 },
+
+  { src: attic1, width: 1080, height: 721 },
+  { src: attic2, width: 1080, height: 721 },
+  { src: attic3, width: 1080, height: 721 },
+  { src: attic4, width: 1080, height: 1620 },
+  { src: attic5, width: 1080, height: 721 },
+
+  { src: hall1, width: 1080, height: 1620 },
+  { src: hall2, width: 1080, height: 1620 },
+  { src: hall3, width: 1080, height: 1620 },
+  { src: hall4, width: 1080, height: 1620 },
+  { src: hall5, width: 1080, height: 1620 },
+  { src: hall6, width: 1080, height: 1620 },
+  { src: hall7, width: 1080, height: 1620 },
 ];
