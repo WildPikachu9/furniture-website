@@ -30,13 +30,22 @@ import kitchen29 from "../img/kitchen/photo_2024-04-26_10-18-37.webp";
 import kitchen30 from "../img/kitchen/photo_2024-04-26_10-23-06.webp";
 import kitchen31 from "../img/kitchen/photo_2024-04-26_10-23-40.webp";
 
-interface Photo {
-  src: string;
-  width: number;
-  height: number;
-}
+import bedroom1 from "../img/bedroom/szafa-1.webp";
+import bedroom2 from "../img/bedroom/szafa-2.webp";
+import bedroom3 from "../img/bedroom/szafa-3.webp";
+import bedroom4 from "../img/bedroom/garderoba-1.webp";
+import bedroom5 from "../img/bedroom/garderoba-2.webp";
+import bedroom6 from "../img/bedroom/garderoba-3.webp";
+import bedroom7 from "../img/bedroom/photo_2024-04-26_10-14-42.webp";
+import bedroom8 from "../img/bedroom/photo_2024-04-26_10-14-47.webp";
+import bedroom9 from "../img/bedroom/photo_2024-04-26_10-15-22.webp";
+import bedroom10 from "../img/bedroom/photo_2024-04-26_10-18-33.webp";
+import bedroom11 from "../img/bedroom/polki-na-ksiazki.webp";
+import bedroom12 from "../img/bedroom/recepcia-1.webp";
+import bedroom13 from "../img/bedroom/recepcja-2.webp";
+import bedroom14 from "../img/bedroom/recepcja-3.webp";
 
-const localPhotos = [
+export const localPhotos = [
   { src: kitchen2, width: 1080, height: 800 },
   { src: kitchen3, width: 1080, height: 800 },
   { src: kitchen4, width: 1080, height: 800 },
@@ -68,26 +77,19 @@ const localPhotos = [
   { src: kitchen31, width: 1080, height: 900 },
   { src: kitchen1, width: 1080, height: 1620 },
   { src: kitchen18, width: 1080, height: 800 },
+
+  { src: bedroom1, width: 1080, height: 1620 },
+  { src: bedroom2, width: 1080, height: 1620 },
+  { src: bedroom3, width: 1080, height: 1620 },
+  { src: bedroom4, width: 1080, height: 1620 },
+  { src: bedroom5, width: 1080, height: 1620 },
+  { src: bedroom6, width: 1080, height: 1620 },
+  { src: bedroom7, width: 1080, height: 721 },
+  { src: bedroom8, width: 1080, height: 1620 },
+  { src: bedroom9, width: 1080, height: 1620 },
+  { src: bedroom10, width: 1080, height: 1620 },
+  { src: bedroom11, width: 1080, height: 1620 },
+  { src: bedroom12, width: 1080, height: 721 },
+  { src: bedroom13, width: 1080, height: 721 },
+  { src: bedroom14, width: 1080, height: 721 },
 ];
-
-const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
-
-export const PhotosGallery = localPhotos.map((photo: Photo) => {
-  const width = photo.width;
-  const height = photo.height;
-
-  return {
-    src: photo.src,
-    width,
-    height,
-    srcSet: breakpoints.map((breakpoint) => {
-      const newWidth = breakpoint;
-      const newHeight = Math.round((height / width) * newWidth);
-      return {
-        src: photo.src,
-        width: newWidth,
-        height: newHeight,
-      };
-    }),
-  };
-});

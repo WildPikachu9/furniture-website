@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import "../../index.scss";
 import { Footer } from "../components/footer/Footer";
-import { PhotosGallery } from "../../furnitureData/PhotosGallery";
+import { PhotosGallery } from "../components/photoGallery/PhotosGallery";
 
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
