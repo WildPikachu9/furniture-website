@@ -13,7 +13,7 @@ export const PrivacyPolicy = () => {
         title={t("general.menu.policy")}
       />
       <SecondaryHeader children={t("general.menu.policy")} />
-      <section className='policy-desc-container'>
+      <section className='policy-desc-container main-section-container'>
         <article className='policy-article'>
           <h3 className='main-title'>{t("policy.article1.header")}</h3>
           <p>{t("policy.article1.text")}</p>

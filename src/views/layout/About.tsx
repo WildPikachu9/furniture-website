@@ -20,13 +20,13 @@ export const About = () => {
         title={t("general.menu.about")}
       />
       <SecondaryHeader children={t("general.menu.about")} />
-      <article className='about-desc-container about-container'>
+      <article className='about-desc-container main-section-container'>
         <h2 className='main-title'>{t("about.headerHistory")}</h2>
         <p className='about-desc-item'>{t("about.article1")}</p>
         <p className='about-desc-item'>{t("about.article2")}</p>
         <p className='about-desc-item'>{t("about.article3")}</p>
       </article>
-      <section className='work-process-container about-container'>
+      <section className='work-process-container main-section-container'>
         <h2 className='main-title'>{t("about.headerProcess")}</h2>
         <div className='work-process'>
           <div className='work-item-container'>

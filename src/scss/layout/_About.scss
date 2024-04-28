@@ -1,8 +1,6 @@
 .layout-container {
-  .about-container {
-    margin-bottom: 50px;
+  .main-section-container {
     padding: 0 35px;
-    text-align: justify;
   }
   .about-desc-container {
     .about-desc-item {
@@ -28,9 +26,7 @@
   }
 
   @media all and (min-width: $small) {
-    .about-container {
-      padding: 0 50px;
-
+    .main-section-container {
       .about-desc-item {
         font-size: $baseline + 5px;
       }
@@ -46,16 +42,6 @@
           width: 45%;
         }
       }
-    }
-  }
-  @media all and (min-width: $large) {
-    .about-container {
-      padding: 0 100px;
-    }
-  }
-  @media all and (min-width: $extra-large) {
-    .about-container {
-      padding: 0 200px;
     }
   }
 }
