@@ -29,7 +29,7 @@ export const Gallery = () => {
         title={t("general.menu.gallery")}
       />
       <SecondaryHeader children={t("general.menu.gallery")} />
-      <section className='gallery-container'>
+      <section className='gallery-container main-section-container'>
         <h2 className='main-title'>nasza galeria zdjec</h2>
         <PhotoAlbum
           photos={PhotosGallery.map((photo, index) => ({

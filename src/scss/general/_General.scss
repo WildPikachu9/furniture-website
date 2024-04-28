@@ -24,3 +24,19 @@ h3.main-title {
     background-color: $bgc-input-light;
   }
 }
+
+.main-section-container {
+  margin: 30px 35px;
+  text-align: justify;
+  letter-spacing: 1px;
+
+  @media all and (min-width: $small) {
+    margin: 30px 50px;
+  }
+  @media all and (min-width: $large) {
+    margin: 50px 100px;
+  }
+  @media all and (min-width: $extra-large) {
+    margin: 50px 250px;
+  }
+}

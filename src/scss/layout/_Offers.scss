@@ -30,11 +30,6 @@
           width: 33%;
         }
       }
-      @media all and (min-width: $extra-large) {
-        .work-item-container {
-          width: 19%;
-        }
-      }
     }
   }
 
@@ -86,12 +81,35 @@
           }
         }
 
+        .offer-desc-container {
+          padding: 0 30px;
+          text-align: justify;
+          letter-spacing: 1px;
+
+          p {
+            font-size: $baseline;
+          }
+        }
+
         @media all and (min-width: $large) {
           flex-direction: row-reverse;
 
+          .image-container {
+            margin: 0 30px;
+          }
+
           .offer-desc-container {
             margin-right: 20px;
+            padding: 0 50px;
             width: 60%;
+
+            h3 {
+              font-size: $baseline + 12px;
+            }
+
+            p {
+              font-size: $baseline + 4px;
+            }
           }
         }
       }
@@ -100,5 +118,6 @@
   .button-container {
     margin: 40px 0;
     text-align: center;
+    letter-spacing: 1px;
   }
 }

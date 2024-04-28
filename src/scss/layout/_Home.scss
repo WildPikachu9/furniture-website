@@ -57,10 +57,14 @@
     }
   }
 
-  .offers-component-container,
-  .blog-component-container {
+  .offers-component-container {
     margin-bottom: 40px;
     padding: 20px 70px;
+    text-align: center;
+
+    p {
+      text-align: justify;
+    }
   }
 
   .about-component-container {

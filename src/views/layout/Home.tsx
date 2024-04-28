@@ -71,7 +71,7 @@ export const Home = () => {
           </ButtonMain>
         </div>
       </section>
-      <section className='blog-component-container'>
+      <section className='offers-component-container'>
         <h2 className='main-title'>{t("general.headersHome.reviewSection")}</h2>
         <ImgSlider dataReview={reviews} />
         <h2 className='main-title'>jakim było twoje doświadczenie z nami?</h2>

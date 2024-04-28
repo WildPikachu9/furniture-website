@@ -17,50 +17,52 @@ const ContactInformation = () => {
 
   return (
     <div className='common-info-container'>
-      <div className='contact-item-container'>
-        <div className='img-holder'>
-          <img
-            src={phoneIcon}
-            alt={t("contact.phoneNumber")}
-            className='contact-img'
-          />
-        </div>
+      <div className='contact-items-container'>
+        <div className='contact-item-container'>
+          <div className='img-holder'>
+            <img
+              src={phoneIcon}
+              alt={t("contact.phoneNumber")}
+              className='contact-img'
+            />
+          </div>
 
-        <div className='contact-item'>
-          <h3 className='contact-header'>{t("contact.phoneNumber")}</h3>
-          <a href='tel:+48123123123'>+48123123123</a>
-          <br />
-          <a href='tel:+38093312323'>+38093312323</a>
+          <div className='contact-item'>
+            <h3 className='contact-header'>{t("contact.phoneNumber")}</h3>
+            <a href='tel:+48123123123'>+48123123123</a>
+            <br />
+            <a href='tel:+38093312323'>+38093312323</a>
+          </div>
         </div>
-      </div>
-      <div className='contact-item-container'>
-        <div className='img-holder'>
-          <img src={emailIcon} alt='Email' className='contact-img' />
-        </div>
+        <div className='contact-item-container'>
+          <div className='img-holder'>
+            <img src={emailIcon} alt='Email' className='contact-img' />
+          </div>
 
-        <div className='contact-item'>
-          <h3 className='contact-header'>email</h3>
-          <a href='mailto:arsmeble@gmail.com'>arsmeble@gmail.com</a>
+          <div className='contact-item'>
+            <h3 className='contact-header'>email</h3>
+            <a href='mailto:arsmeble@gmail.com'>arsmeble@gmail.com</a>
+          </div>
         </div>
-      </div>
-      <div className='contact-item-container'>
-        <div className='img-holder'>
-          <img
-            src={clockIcon}
-            alt={t("contact.workingHours")}
-            className='contact-img'
-          />
-        </div>
-        <div className='contact-item'>
-          <h3 className='contact-header'>{t("contact.workingHours")}</h3>
-          <p>
-            <span>{t("contact.weekdays")}</span>
-            {t("contact.hoursWeekdays")}
-          </p>
-          <p>
-            <span>{t("contact.weekends")}</span>
-            {t("contact.hoursWeekends")}
-          </p>
+        <div className='contact-item-container'>
+          <div className='img-holder'>
+            <img
+              src={clockIcon}
+              alt={t("contact.workingHours")}
+              className='contact-img'
+            />
+          </div>
+          <div className='contact-item'>
+            <h3 className='contact-header'>{t("contact.workingHours")}</h3>
+            <p>
+              <span>{t("contact.weekdays")}</span>
+              {t("contact.hoursWeekdays")}
+            </p>
+            <p>
+              <span>{t("contact.weekends")}</span>
+              {t("contact.hoursWeekends")}
+            </p>
+          </div>
         </div>
       </div>
       <SocialLinks />

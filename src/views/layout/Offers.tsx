@@ -22,7 +22,7 @@ export const Offers = () => {
         title={t("general.menu.offers")}
       />
       <SecondaryHeader children={t("general.menu.offers")} />
-      <section className='process-container about-container'>
+      <section className='process-container main-section-container'>
         <h2 className='main-title'>{t("offers.offer")}</h2>
         <div className='work-process'>
           <div className='work-item-container'>
@@ -47,7 +47,6 @@ export const Offers = () => {
           </div>
         </div>
       </section>
-
       <TabsComponent />
       <Footer />
     </div>
