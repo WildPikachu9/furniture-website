@@ -12,10 +12,10 @@
     background-position: center;
 
     &.carousel-img-first {
-      background-image: url(../../img/img1.jpg);
+      background-image: url(../../img/banner-1.webp);
     }
     &.carousel-img-second {
-      background-image: url(../../img/img2.jpg);
+      background-image: url(../../img/banner-2.webp);
     }
   }
 
@@ -74,7 +74,10 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      background-image: url(../../../public/img/img3.jpg);
+      background-image: url(../../img/banner-3.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       width: 100%;
 
       .logo,
