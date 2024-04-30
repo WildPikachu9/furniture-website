@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/furniture-website/static/css/main.6182d9f5.css",
-    "main.js": "/furniture-website/static/js/main.40640fa7.js",
+    "main.js": "/furniture-website/static/js/main.18619c9c.js",
     "static/media/img3.jpg": "/furniture-website/static/media/img3.fc134b5d78a08643488e.jpg",
     "static/media/qqq.png": "/furniture-website/static/media/qqq.8e9ede92e4fc7fc5758b.png",
     "static/media/photo_2024-04-26_10-15-15.webp": "/furniture-website/static/media/photo_2024-04-26_10-15-15.c26535d31103762cf662.webp",
@@ -61,7 +61,6 @@
     "static/media/photo_2024-04-26_10-16-19.webp": "/furniture-website/static/media/photo_2024-04-26_10-16-19.21a1cb60a579d5eb0c70.webp",
     "static/media/photo_2024-04-26_10-18-33.webp": "/furniture-website/static/media/photo_2024-04-26_10-18-33.a953487afba488254045.webp",
     "static/media/przedpokoj-4.webp": "/furniture-website/static/media/przedpokoj-4.13b64db7109ccf023709.webp",
-    "static/media/hall1.webp": "/furniture-website/static/media/hall1.37b862293b7199102e1a.webp",
     "static/media/szafa-3.webp": "/furniture-website/static/media/szafa-3.e17dae423208d3a75e96.webp",
     "static/media/przedpokoj-2.webp": "/furniture-website/static/media/przedpokoj-2.24555de7dfce444909b9.webp",
     "static/media/recepcja-2.webp": "/furniture-website/static/media/recepcja-2.d10a7d570ec6446d0f5d.webp",
@@ -96,10 +95,10 @@
     "static/media/slick.woff": "/furniture-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/furniture-website/index.html",
     "main.6182d9f5.css.map": "/furniture-website/static/css/main.6182d9f5.css.map",
-    "main.40640fa7.js.map": "/furniture-website/static/js/main.40640fa7.js.map"
+    "main.18619c9c.js.map": "/furniture-website/static/js/main.18619c9c.js.map"
   },
   "entrypoints": [
     "static/css/main.6182d9f5.css",
-    "static/js/main.40640fa7.js"
+    "static/js/main.18619c9c.js"
   ]
 }
