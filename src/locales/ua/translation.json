@@ -7,57 +7,36 @@
     "descriptionContact": "Зв'яжіться з нами, щоб замовити свої мрійні меблі на замовлення. Наша команда готова допомогти вам в реалізації проекту. Чекаємо на ваш телефон або електронну пошту."
   },
 
-  "blogDataHomePage": {
-    "blog1": {
-      "name": "Polish",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog2": {
-      "name": "Blog post 0",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog3": {
-      "name": "Blog post 1",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog4": {
-      "name": "Blog post 2",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog5": {
-      "name": "Blog post 3",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog6": {
-      "name": "Blog post 6",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog7": {
-      "name": "Blog post 7",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    }
-  },
-
   "offersDataHomePage": {
     "offer1": {
-      "name": "Meble kuchenne",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Кухонні меблі",
+      "header": "Кухонні меблі на замовлення",
+      "desc": "Наша компанія пропонує унікальні проекти, що відповідають вашим потребам, забезпечуючи не лише відмінне пристосування до простору, але й сучасний стиль в кухонному дизайні.",
+      "descMore": "Кухня – серце будинку, де змішуються аромати та спільні миті з родиною. Наші кухні на замовлення пропонують вільне планування, точність та унікальність. Вони ідеально вписуються навіть у складні простори. Ми пристосовуємо ціни індивідуально під кожен проект. Запрошуємо ознайомитися з нашим портфоліо!"
     },
     "offer2": {
-      "name": "Meble lazienkowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Офісні меблі",
+      "header": "Офісні меблі на замовлення",
+      "desc": "Ми пропонуємо унікальні рішення, що відповідають потребам вашого офісу або кабінету, забезпечуючи ергономічне робоче місце в привабливій формі.",
+      "descMore": "ARSMEBLE спеціалізується на проектуванні офісних меблів, які забезпечують ергономічні умови праці та надають приміщенням професійний характер. Наші меблі пристосовані до сучасних потреб, поєднуючи функціональність з елегантністю. Ми пропонуємо ергономічний дизайн та сучасні стилі, забезпечуючи ефективні рішення зберігання та тривалість матеріалів. Запрошуємо до нашої галереї, щоб побачити, як наші офісні меблі відмінно вписуються в різноманітні робочі простори, підкреслюючи професіоналізм і поліпшуючи естетику бюро."
     },
     "offer3": {
-      "name": "Meble biurowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Вбудовані шафи та гардероби",
+      "header": "Вбудовані шафи та гардероби на замовлення",
+      "desc": "Відкрийте відмінність у зберіганні з нашими вбудованими шафами та гардеробами.",
+      "descMore": "В ARSMEBLE ми спеціалізуємося не лише на вбудованих шафах та гардеробах, а також на дитячих меблях та меблях для передпокою. Наші рішення поєднують елегантність, функціональність та пристосування до ваших потреб. Ми пропонуємо пристосування до простору, стиль та елегантність, функціональність та матеріали найвищої якості. Відкрийте, як наші меблі можуть змінити ваш простір на краще."
     },
     "offer4": {
-      "name": "Meble mlodziezowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Будівництво під кутами на горищі",
+      "header": "Будівництво під кутами на горищі на замовлення",
+      "desc": "Наші конструкції під кутами на горищі – це ідеальне рішення для використання кожного простору.",
+      "descMore": "Ми пропонуємо інноваційні рішення для будівництва під кутами на горищі, які не лише оптимізують простір, але й надають приміщенням унікальний характер. Наші конструкції відрізняються практичною ефективністю, пристосуванням до індивідуальних потреб та застосуванням матеріалів найвищої якості. Інвестуючи в наші рішення, ви перетворите неосвоєні простори в функціональні зони, надаючи їм нові можливості як з точки зору естетики, так і використання. Відкрийте, як наші конструкції можуть змінити кутами на горищі, роблячи їх невід'ємною частиною вашого будинку."
     },
     "offer5": {
-      "name": "szafy do szypialni",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Ванні кімнати",
+      "header": "Меблі для ванних кімнат на замовлення",
+      "desc": "Ми пропонуємо унікальні рішення, пристосовані до індивідуальних потреб, забезпечуючи не лише функціональність, але й винятковий дизайн для ванної кімнати.",
+      "descMore": "ARSMEBLE – це місце, де ми проектуємо меблі для ванних кімнат з увагою до практичності, естетики та тривалості. Наші продукти поєднують функціональність з елегантністю, пристосовуючись до сучасних потреб стилю життя. Вони забезпечують оптимальне використання простору, тривалість у вологому середовищі, сучасні дизайни та практичні рішення зберігання. Інвестуючи в наші меблі, ви інвестуєте в елегантність та функціональність, створюючи ванну кімнату, яка задовольняє всі практичні та естетичні вимоги."
     }
   },
 

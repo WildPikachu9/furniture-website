@@ -7,57 +7,36 @@
     "descriptionContact": "Contact us to order your dream custom furniture. Our team is ready to assist you in realizing your project. We look forward to your phone call or email."
   },
 
-  "blogDataHomePage": {
-    "blog1": {
-      "name": "Polish",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog2": {
-      "name": "Blog post 0",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog3": {
-      "name": "Blog post 1",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog4": {
-      "name": "Blog post 2",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog5": {
-      "name": "Blog post 3",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog6": {
-      "name": "Blog post 6",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog7": {
-      "name": "Blog post 7",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    }
-  },
-
   "offersDataHomePage": {
     "offer1": {
-      "name": "Meble kuchenne",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Kitchen Furniture",
+      "header": "Custom Kitchen Furniture",
+      "desc": "Our company offers unique designs tailored to your needs, providing not only excellent space optimization but also a modern style in kitchen arrangement.",
+      "descMore": "The kitchen is the heart of the home, where aromas and shared moments with family converge. Our custom kitchens offer freedom of arrangement, precision, and uniqueness. They seamlessly adapt even to challenging spaces. We adjust prices individually to each project. Explore our portfolio!"
     },
     "offer2": {
-      "name": "Meble lazienkowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Office Furniture",
+      "header": "Custom Office Furniture",
+      "desc": "We offer unique solutions tailored to the needs of your office or study, providing ergonomic workspaces in an attractive form.",
+      "descMore": "ARSMEBLE specializes in designing office furniture that ensures ergonomic working conditions and adds a professional character to interiors. Our furniture is tailored to contemporary needs, combining functionality with elegance. We offer ergonomic design and modern styles, providing effective storage solutions and material durability. Visit our gallery to see how our office furniture perfectly fits into various workspaces, emphasizing professionalism and enhancing office aesthetics."
     },
     "offer3": {
-      "name": "Meble biurowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Built-In Wardrobes and Closets",
+      "header": "Custom Built-In Wardrobes and Closets",
+      "desc": "Discover excellence in storage with our built-in wardrobes and closets.",
+      "descMore": "At ARSMEBLE, we specialize not only in built-in wardrobes and closets but also in children's furniture and hallway furniture. Our solutions combine elegance, functionality, and customization to your needs. We offer tailored space utilization, style, elegance, functionality, and top-quality materials. Discover how our furniture can transform your space for the better."
     },
     "offer4": {
-      "name": "Meble mlodziezowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Attic Slope Enclosures",
+      "header": "Custom Attic Slope Enclosures",
+      "desc": "Our attic slope enclosures are the perfect solution for utilizing every space.",
+      "descMore": "We offer innovative solutions for attic slope enclosures that not only optimize space but also give interiors a unique character. Our enclosures stand out for their practical efficiency, customization to individual needs, and use of top-quality materials. By investing in our solutions, you'll transform underutilized spaces into functional areas, giving them a new dimension of aesthetics and utility. Discover how our enclosures can transform slopes and attics, creating an integral part of your home."
     },
     "offer5": {
-      "name": "szafy do szypialni",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Bathroom Furniture",
+      "header": "Custom Bathroom Furniture",
+      "desc": "We offer unique solutions tailored to individual needs, providing not only functionality but also exceptional bathroom design.",
+      "descMore": "ARSMEBLE is where we design bathroom furniture with a focus on practicality, aesthetics, and durability. Our products combine functionality with elegance, adapting to contemporary lifestyle needs. They ensure optimal space utilization, moisture-resistant durability, modern designs, and practical storage solutions. By investing in our furniture, you invest in elegance and functionality, creating a bathroom that meets both practical and aesthetic requirements."
     }
   },
 

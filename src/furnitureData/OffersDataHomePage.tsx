@@ -5,7 +5,7 @@ import kitchen from "../img/banner-1.webp";
 import bedroom from "../img/bedroom/szafa-1.webp";
 import bathroom from "../img/bathroom/photo_2024-04-26_10-11-13.webp";
 import attic from "../img/attic/zabudowa-skosow-3.webp";
-import hall from "../img/hall/hall1.webp";
+import office from "../img/bedroom/recepcja-2.webp";
 
 export const OffersDataHomePage = () => {
   const { t } = useTranslation();
@@ -21,7 +21,7 @@ export const OffersDataHomePage = () => {
     {
       name: t("offersDataHomePage.offer2.name"),
       header: t("offersDataHomePage.offer2.header"),
-      img: hall,
+      img: office,
       desc: t("offersDataHomePage.offer2.desc"),
       descMore: t("offersDataHomePage.offer2.descMore"),
     },

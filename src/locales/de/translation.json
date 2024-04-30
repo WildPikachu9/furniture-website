@@ -7,57 +7,36 @@
     "descriptionContact": "Kontaktieren Sie uns, um Ihre Traummaßmöbel zu bestellen. Unser Team steht bereit, um Ihnen bei der Realisierung Ihres Projekts zu helfen. Wir freuen uns auf Ihren Anruf oder Ihre E-Mail."
   },
 
-  "blogDataHomePage": {
-    "blog1": {
-      "name": "Polish",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog2": {
-      "name": "Blog post 0",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog3": {
-      "name": "Blog post 1",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog4": {
-      "name": "Blog post 2",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog5": {
-      "name": "Blog post 3",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog6": {
-      "name": "Blog post 6",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog7": {
-      "name": "Blog post 7",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    }
-  },
-
   "offersDataHomePage": {
     "offer1": {
-      "name": "Meble kuchenne",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Küchenmöbel",
+      "header": "Maßgeschneiderte Küchenmöbel",
+      "desc": "Unser Unternehmen bietet einzigartige Designs, die Ihren Bedürfnissen entsprechen und nicht nur eine perfekte Anpassung an den Raum bieten, sondern auch einen modernen Stil in der Küchengestaltung.",
+      "descMore": "Die Küche ist das Herz des Hauses, wo Aromen und gemeinsame Momente mit der Familie verschmelzen. Unsere maßgeschneiderten Küchen bieten Freiheit bei der Gestaltung, Präzision und Einzigartigkeit. Sie passen sich perfekt auch an schwierige Räume an. Die Preise passen wir individuell an das Projekt an. Wir laden Sie ein, sich unser Portfolio anzusehen!"
     },
     "offer2": {
-      "name": "Meble lazienkowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Büromöbel",
+      "header": "Maßgeschneiderte Büromöbel",
+      "desc": "Wir bieten einzigartige Lösungen, die auf die Bedürfnisse Ihres Büros oder Ihrer Praxis zugeschnitten sind und einen ergonomischen Arbeitsplatz in attraktiver Form bieten.",
+      "descMore": "ARSMEBLE hat sich auf die Gestaltung von Büromöbeln spezialisiert, die ergonomische Arbeitsbedingungen bieten und den Räumen einen professionellen Charakter verleihen. Unsere Möbel sind auf die modernen Anforderungen zugeschnitten und verbinden Funktionalität mit Eleganz. Wir bieten ergonomisches Design und moderne Stile, die effiziente Lösungen für die Aufbewahrung und Langlebigkeit der Materialien gewährleisten. Besuchen Sie unsere Galerie, um zu sehen, wie unsere Büromöbel perfekt in verschiedene Arbeitsumgebungen passen und Professionalität betonen sowie die Ästhetik des Büros verbessern."
     },
     "offer3": {
-      "name": "Meble biurowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Einbauschränke und Kleiderschränke",
+      "header": "Maßgefertigte Einbauschränke und Kleiderschränke",
+      "desc": "Entdecken Sie die Exzellenz in der Aufbewahrung mit unseren Einbauschränken und Kleiderschränken.",
+      "descMore": "Bei ARSMEBLE sind wir nicht nur auf Einbauschränke und Kleiderschränke spezialisiert, sondern auch auf Kindermöbel und Flurmöbel. Unsere Lösungen vereinen Eleganz, Funktionalität und Anpassungsfähigkeit an Ihre Bedürfnisse. Wir bieten Anpassung an den Raum, Stil und Eleganz, Funktionalität sowie Materialien höchster Qualität. Entdecken Sie, wie unsere Möbel Ihre Räume verbessern können."
     },
     "offer4": {
-      "name": "Meble mlodziezowe",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Dachgeschossausbau",
+      "header": "Maßgeschneiderte Dachgeschossausbauten",
+      "desc": "Unsere Dachgeschossausbauten sind die perfekte Lösung, um jeden Raum optimal zu nutzen.",
+      "descMore": "Wir bieten innovative Lösungen für den Ausbau von Dachgeschossen, die nicht nur den Raum optimieren, sondern auch den Räumen einen einzigartigen Charakter verleihen. Unsere Ausbauten zeichnen sich durch praktische Effizienz, Anpassungsfähigkeit an individuelle Bedürfnisse und die Verwendung hochwertiger Materialien aus. Investieren Sie in unsere Lösungen, um ungenutzte Räume in funktionale Bereiche zu verwandeln und ihnen eine neue Dimension von Ästhetik und Nützlichkeit zu verleihen. Entdecken Sie, wie unsere Ausbauten Dachgeschosse zu einem integralen Teil Ihres Hauses machen können."
     },
     "offer5": {
-      "name": "szafy do szypialni",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
+      "name": "Badezimmermöbel",
+      "header": "Maßgeschneiderte Badezimmermöbel",
+      "desc": "Wir bieten einzigartige Lösungen, die individuellen Bedürfnissen entsprechen und nicht nur Funktionalität, sondern auch ein außergewöhnliches Badezimmerdesign bieten.",
+      "descMore": "ARSMEBLE ist der Ort, an dem wir Badezimmermöbel entwerfen, die auf Praktikabilität, Ästhetik und Langlebigkeit achten. Unsere Produkte vereinen Funktionalität mit Eleganz und passen sich den modernen Anforderungen des Lebensstils an. Sie bieten optimale Raumnutzung, Feuchtigkeitsbeständigkeit, moderne Designs und praktische Aufbewahrungslösungen. Investieren Sie in unsere Möbel, um Eleganz und Funktionalität zu erhalten und ein Badezimmer zu schaffen, das alle praktischen und ästhetischen Anforderungen erfüllt."
     }
   },
 

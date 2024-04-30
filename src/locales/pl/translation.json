@@ -7,67 +7,36 @@
     "descriptionContact": "Skontaktuj się z nami, aby zamówić swoje wymarzone meble na wymiar. Nasz zespół jest gotowy, aby pomóc Ci w realizacji projektu. Czekamy na Twój telefon lub e-mail."
   },
 
-  "blogDataHomePage": {
-    "blog1": {
-      "name": "Polish",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog2": {
-      "name": "Blog post 0",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog3": {
-      "name": "Blog post 1",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog4": {
-      "name": "Blog post 2",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog5": {
-      "name": "Blog post 3",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog6": {
-      "name": "Blog post 6",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    },
-    "blog7": {
-      "name": "Blog post 7",
-      "desc": "lodolor sit amet, consectetur adipisicing elit. Ad erro fuga distinctio delectus tempore incidunt necessitatibus, labore"
-    }
-  },
-
   "offersDataHomePage": {
     "offer1": {
       "name": "Meble kuchenne",
       "header": "Meble kuchenne na wymiar",
-      "desc": "Nasza firma oferuje meble kuchenne na wymiar, dostosowane do Twoich potrzeb i preferencji. Wybierając nasze meble, otrzymujesz nie tylko funkcjonalne rozwiązania, ale także estetyczny design, który sprawi, że Twoja kuchnia będzie wyjątkowa.",
-      "descMore": "W naszej ofercie znajdziesz szeroki wybór materiałów i wykończeń, aby stworzyć idealną kuchnię, która będzie odzwierciedleniem Twojego stylu życia."
+      "desc": "Nasza firma oferuje unikalne projekty, dostosowane do Twoich potrzeb, zapewniając nie tylko doskonałe dopasowanie do przestrzeni, lecz także nowoczesny styl w kuchennym aranżacji.",
+      "descMore": "Kuchnia to serce domu, gdzie łączą się aromaty i wspólne chwile z rodziną. Nasze kuchnie na wymiar oferują swobodę aranżacji, precyzję i unikalność. Idealnie dopasowują się nawet do trudnych przestrzeni. Dostosowujemy ceny indywidualnie do projektu. Zapraszamy do zapoznania się z naszym portfolio!"
     },
     "offer2": {
-      "name": "Meble łazienkowe",
-      "header": "Meble łazienkowe na wymiar",
-      "desc": "Nasza firma specjalizuje się w produkcji mebli łazienkowych na wymiar, zapewniających funkcjonalność i elegancję. Oferujemy szeroki wybór modeli i kolorów, aby dopasować się do każdej przestrzeni łazienkowej.",
-      "descMore": "Każdy nasz mebel jest starannie zaprojektowany i wykonany z najwyższej jakości materiałów, aby zapewnić trwałość i estetykę przez wiele lat użytkowania."
+      "name": "Meble biurowe",
+      "header": "Meble biurowe na wymiar",
+      "desc": "Oferujemy unikalne rozwiązania dostosowane do potrzeb Twojego biura lub gabinetu, zapewniając ergonomiczne miejsce pracy w atrakcyjnej formie.",
+      "descMore": "ARSMEBLE specjalizuje się w projektowaniu mebli biurowych, które zapewniają ergonomiczne warunki pracy i nadają wnętrzom profesjonalny charakter. Nasze meble są dostosowane do współczesnych potrzeb, łącząc funkcjonalność z elegancją. Oferujemy ergonomiczny design oraz nowoczesne style, zapewniając efektywne rozwiązania przechowywania i trwałość materiałów. Zapraszamy do naszej galerii, aby zobaczyć, jak nasze meble biurowe doskonale wpisują się w różnorodne przestrzenie pracy, podkreślając profesjonalizm i poprawiając estetykę biura."
     },
     "offer3": {
-      "name": "Meble biurowe",
-      "header": "Meble do biura lub gabinetu na wymiar",
-      "desc": "Oferujemy profesjonalne meble biurowe na wymiar, dostosowane do potrzeb i oczekiwań naszych klientów. Nasze meble są nie tylko funkcjonalne, ale także zapewniają ergonomiczne warunki pracy, które podnoszą wydajność i komfort użytkowania.",
-      "descMore": "Z nami możesz stworzyć idealne miejsce do pracy, które będzie sprzyjało kreatywności i efektywności. Oferujemy również szeroki wybór dodatkowych akcesoriów, aby dopasować meble do indywidualnych preferencji."
+      "name": "Szafy wnękowe i garderoby",
+      "header": "Szafy wnękowe i garderoby na zamówienie",
+      "desc": "Odkryj doskonałość w przechowywaniu z naszymi szafami wnękowymi i garderobami.",
+      "descMore": "W ARSMEBLE specjalizujemy się nie tylko w szafach wnękowych i garderobach, ale także w meblach dziecięcych oraz meblach dla przedpokoju. Nasze rozwiązania to połączenie elegancji, funkcjonalności i dopasowania do Twoich potrzeb. Oferujemy dopasowanie do przestrzeni, styl i elegancję, funkcjonalność oraz materiały najwyższej jakości. Odkryj, jak nasze meble mogą zmienić Twoją przestrzeń na lepsze."
     },
     "offer4": {
-      "name": "Szafy wnękowe i garderoby",
-      "header": "Szafy wnękowe i garderoby na wymiar",
-      "desc": "Nasza firma zajmuje się produkcją szaf wnękowych i garderób na wymiar, dostosowanych do konkretnych potrzeb naszych klientów. Oferujemy funkcjonalne i estetyczne rozwiązania, które optymalnie wykorzystują przestrzeń w Twoim domu.",
-      "descMore": "Dzięki naszym szafom wnękowym i garderobom możesz efektywnie zorganizować swoje ubrania, buty i akcesoria, jednocześnie nadając swoim pomieszczeniom nowoczesny wygląd."
+      "name": "Zabudowa skosów na poddaszu",
+      "header": "Zabudowa skosów na poddaszu na wymiar",
+      "desc": "Nasze zabudowy skosów i poddaszy to perfekcyjne rozwiązanie dla wykorzystania każdej przestrzeni.",
+      "descMore": "Oferujemy innowacyjne rozwiązania dla zabudowy skosów i poddaszy, które nie tylko optymalizują przestrzeń, ale także nadają wnętrzom wyjątkowy charakter. Nasze zabudowy wyróżniają się praktyczną wydajnością, dopasowaniem do indywidualnych potrzeb oraz stosowaniem materiałów najwyższej jakości. Inwestując w nasze rozwiązania, przekształcisz niezagospodarowane przestrzenie w funkcjonalne obszary, nadając im nowy wymiar estetyki i użytkowości. Odkryj, jak nasze zabudowy mogą odmienić skosy i poddasza, tworząc integralną część Twojego domu."
     },
     "offer5": {
-      "name": "Meble dziecięce",
-      "header": "Meble dziecięce i młodzieżowe na wymiar",
-      "desc": "Specjalizujemy się w produkcji mebli dziecięcych i młodzieżowych na wymiar, które są nie tylko funkcjonalne, ale także bezpieczne i estetyczne. Oferujemy szeroki wybór wzorów i kolorów, aby stworzyć idealną przestrzeń dla Twojego dziecka.",
-      "descMore": "Z naszymi meblami dziecięcymi Twoje dziecko będzie miało swoje własne miejsce do zabawy, nauki i odpoczynku. Dbamy o każdy szczegół, aby zapewnić komfort i radość Twojemu dziecku."
+      "name": "Meble łazienkowe",
+      "header": "Meble łazienkowe na wymiar",
+      "desc": "Oferujemy unikalne rozwiązania, dostosowane do indywidualnych potrzeb, zapewniając nie tylko funkcjonalność, ale także wyjątkowy design łazienkowy.",
+      "descMore": "ARSMEBLE to miejsce, gdzie projektujemy meble łazienkowe z dbałością o praktyczność, estetykę i trwałość. Nasze produkty łączą funkcjonalność z elegancją, dostosowując się do współczesnych potrzeb stylu życia. Zapewniają optymalne wykorzystanie przestrzeni, trwałość w warunkach wilgoci, nowoczesne designy oraz praktyczne rozwiązania przechowywania. Inwestując w nasze meble, inwestujesz w elegancję i funkcjonalność, tworząc łazienkę, która spełnia wszystkie wymagania zarówno praktyczne, jak i estetyczne."
     }
   },
 
