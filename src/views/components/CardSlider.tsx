@@ -59,6 +59,7 @@ export const CardSlider = ({ data }: CardSliderProps) => {
                 src={item.img}
                 alt={item.name}
                 className='slider-card-img'
+                loading='lazy'
               />
               <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
@@ -86,6 +87,7 @@ export const ImgSlider = ({ dataReview }: CardSliderProps) => {
                 src={item.img}
                 alt={item.name}
                 className='slider-card-img slider-review-img'
+                loading='lazy'
               />
             </Card>
           ))}

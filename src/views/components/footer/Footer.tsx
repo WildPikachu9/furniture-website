@@ -33,7 +33,7 @@ export const Footer = () => {
         <p>
           <Link to={"/privacy-policy"}>{t("general.menu.policy")}</Link>
         </p>
-        <p>&copy; 2024 arsmeble.</p>
+        <p>&copy; 2025 arsmeble.</p>
       </section>
     </footer>
   );

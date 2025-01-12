@@ -26,23 +26,31 @@ export const Offers = () => {
         <h2 className='main-title'>{t("offers.offer")}</h2>
         <div className='work-process'>
           <div className='work-item-container'>
-            <img src={creativityIcon} alt={t("offers.design")} />
+            <img src={creativityIcon} alt={t("offers.design")} loading='lazy' />
             <h3 className='main-title'>{t("offers.design")}</h3>
           </div>
           <div className='work-item-container'>
-            <img src={projectIcon} alt={t("offers.details")} />
+            <img src={projectIcon} alt={t("offers.details")} loading='lazy' />
             <h3 className='main-title'>{t("offers.details")}</h3>
           </div>
           <div className='work-item-container'>
-            <img src={designIcon} alt={t("offers.accessories")} />
+            <img
+              src={designIcon}
+              alt={t("offers.accessories")}
+              loading='lazy'
+            />
             <h3 className='main-title'>{t("offers.accessories")}</h3>
           </div>
           <div className='work-item-container'>
-            <img src={guaranteeIcon} alt={t("offers.guarancee")} />
+            <img
+              src={guaranteeIcon}
+              alt={t("offers.guarancee")}
+              loading='lazy'
+            />
             <h3 className='main-title'>{t("offers.guarancee")}</h3>
           </div>
           <div className='work-item-container'>
-            <img src={deliveryIcon} alt={t("offers.delivery")} />
+            <img src={deliveryIcon} alt={t("offers.delivery")} loading='lazy' />
             <h3 className='main-title'>{t("offers.delivery")}</h3>
           </div>
         </div>

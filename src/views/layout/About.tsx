@@ -30,7 +30,11 @@ export const About = () => {
         <h2 className='main-title'>{t("about.headerProcess")}</h2>
         <div className='work-process'>
           <div className='work-item-container'>
-            <img src={commnicationIcon} alt={t("about.workProcess.contact")} />
+            <img
+              src={commnicationIcon}
+              alt={t("about.workProcess.contact")}
+              loading='lazy'
+            />
             <div className='work-item-desc'>
               <h3 className='main-title'>{t("about.workProcess.contact")}</h3>
               <p className='about-desc-item'>
@@ -39,7 +43,11 @@ export const About = () => {
             </div>
           </div>
           <div className='work-item-container'>
-            <img src={projectIcon} alt={t("about.workProcess.consultation")} />
+            <img
+              src={projectIcon}
+              alt={t("about.workProcess.consultation")}
+              loading='lazy'
+            />
             <div className='work-item-desc'>
               <h3 className='main-title'>
                 {t("about.workProcess.consultation")}
@@ -50,7 +58,11 @@ export const About = () => {
             </div>
           </div>
           <div className='work-item-container'>
-            <img src={processIcon} alt={t("about.workProcess.production")} />
+            <img
+              src={processIcon}
+              alt={t("about.workProcess.production")}
+              loading='lazy'
+            />
             <div className='work-item-desc'>
               <h3 className='main-title'>
                 {t("about.workProcess.production")}
@@ -61,7 +73,11 @@ export const About = () => {
             </div>
           </div>
           <div className='work-item-container'>
-            <img src={deliveryIcon} alt={t("about.workProcess.delivery")} />
+            <img
+              src={deliveryIcon}
+              alt={t("about.workProcess.delivery")}
+              loading='lazy'
+            />
             <div className='work-item-desc'>
               <h3 className='main-title'>{t("about.workProcess.delivery")}</h3>
               <p className='about-desc-item'>

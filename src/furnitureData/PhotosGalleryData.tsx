@@ -150,4 +150,4 @@ export const localPhotos = [
   { src: hall5, width: 1080, height: 1620 },
   { src: hall6, width: 1080, height: 1620 },
   { src: hall7, width: 1080, height: 1620 },
-];
+].map((photo) => ({ ...photo, loading: "lazy" }));

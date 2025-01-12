@@ -9,7 +9,12 @@ export const SecondaryHeader = ({ children }: SecondaryHeaderProps) => {
   return (
     <div className='secondary-header-component'>
       <h1 className='header-text'>{children}</h1>
-      <img src={headerImg} alt='asrmeble.' className='secondary-header-img' />
+      <img
+        src={headerImg}
+        alt='asrmeble.'
+        className='secondary-header-img'
+        loading='lazy'
+      />
     </div>
   );
 };

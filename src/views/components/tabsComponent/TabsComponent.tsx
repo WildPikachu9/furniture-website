@@ -21,7 +21,7 @@ export const TabsComponent = () => {
             <section className='offer-section-container'>
               <div className='image-container'>
                 <Link to={"/galeria"}>
-                  <img src={item.img} alt={item.name} />
+                  <img src={item.img} alt={item.name} loading='lazy' />
                 </Link>
               </div>
               <div className='offer-desc-container'>

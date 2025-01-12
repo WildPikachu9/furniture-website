@@ -24,6 +24,7 @@ const ContactInformation = () => {
               src={phoneIcon}
               alt={t("contact.phoneNumber")}
               className='contact-img'
+              loading='lazy'
             />
           </div>
 
@@ -36,7 +37,12 @@ const ContactInformation = () => {
         </div>
         <div className='contact-item-container'>
           <div className='img-holder'>
-            <img src={emailIcon} alt='Email' className='contact-img' />
+            <img
+              src={emailIcon}
+              alt='Email'
+              className='contact-img'
+              loading='lazy'
+            />
           </div>
 
           <div className='contact-item'>
@@ -50,6 +56,7 @@ const ContactInformation = () => {
               src={clockIcon}
               alt={t("contact.workingHours")}
               className='contact-img'
+              loading='lazy'
             />
           </div>
           <div className='contact-item'>
