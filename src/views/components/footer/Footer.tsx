@@ -5,6 +5,7 @@ import { FooterNavigation } from "./FooterNavigation";
 import { useEffect, useState } from "react";
 import { LanguageSwitcher } from "../languageSwitcher/LanguageSwitcher";
 import { Link } from "react-router-dom";
+import { Logo } from "../logo/Logo";
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -25,7 +26,7 @@ export const Footer = () => {
   return (
     <footer className='footer-component'>
       <div className='footer-nav-container'>
-        <h1 className='logo'>arsmeble.</h1>
+        <Logo />
         <FooterNavigation windowWidth={windowWidth} />
       </div>
       <section className='footer-policy-container'>
@@ -33,7 +34,7 @@ export const Footer = () => {
         <p>
           <Link to={"/privacy-policy"}>{t("general.menu.policy")}</Link>
         </p>
-        <p>&copy; 2025 arsmeble.</p>
+        <p>&copy; 2026 ANSO HOME</p>
       </section>
     </footer>
   );
