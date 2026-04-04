@@ -1,0 +1,10 @@
+.logo-container {
+  text-align: center;
+  font-family: $logo-font;
+  font-weight: 700;
+  .logo {
+    span {
+      font-weight: 400;
+    }
+  }
+}

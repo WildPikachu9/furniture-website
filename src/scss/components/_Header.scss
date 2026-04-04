@@ -28,6 +28,11 @@
     .logo {
       font-family: $logo-font;
       font-weight: 700;
+      text-align: right;
+
+      span {
+        font-weight: 400;
+      }
     }
 
     & > * {
@@ -79,6 +84,7 @@
       }
       .logo {
         margin: 15px auto;
+        text-align: center;
       }
     }
   }

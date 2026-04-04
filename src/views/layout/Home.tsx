@@ -9,6 +9,7 @@ import { CardSlider } from "../components/CardSlider";
 import { OffersDataHomePage } from "../../furnitureData/OffersDataHomePage";
 import { Footer } from "../components/footer/Footer";
 import { MetaData } from "../components/metaData/MetaData";
+import { Logo } from "../components/logo/Logo";
 
 export const HomeCarousel = () => {
   const [index, setIndex] = useState(0);
@@ -60,7 +61,8 @@ export const Home = () => {
       </section>
       <section className='about-component-container'>
         <div className='img-about-container carousel-img'>
-          <h1 className='logo'>arsmeble.</h1>
+          {/* <h1 className='logo'>arsmeble.</h1> */}
+          <Logo />
           <h2 className='main-title'>
             {t("general.headersHome.aboutSection")}
           </h2>

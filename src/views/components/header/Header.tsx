@@ -44,13 +44,19 @@ export const Header = () => {
             <FontAwesomeIcon icon={faBars} />
           </Button>
         ) : null}
-        <h1 className='logo'>arsmeble.</h1>
+        <h1 className='logo'>
+          anso home <br />
+          <span>by Huk</span>
+        </h1>
       </div>
       <div>
         {windowWidth <= 769 ? (
           <Offcanvas show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title>arsmeble.</Offcanvas.Title>
+              <Offcanvas.Title>
+                ANSO HOME <br />
+                by Huk
+              </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Navigation handleClose={handleClose} />
