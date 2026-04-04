@@ -1,18 +1,26 @@
 .secondary-header-component {
   position: relative;
   .secondary-header-img {
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     object-fit: cover;
+    overflow: hidden;
+
+    @media all and (min-width: $medium) {
+      height: 50vh;
+    }
   }
 
-  .header-text {
-    position: absolute;
-    top: 50%;
-    padding: 30px 0;
-    text-align: center;
-    width: 100%;
-    color: $bgc-light;
-    background-color: #0000007a;
+  .about-page-logo {
+    height: 50vh;
+    @media all and (min-width: $medium) {
+      height: 70vh;
+      object-position: top;
+      padding-top: 100px;
+      background-image: url(../../img/background.png);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
   }
 }

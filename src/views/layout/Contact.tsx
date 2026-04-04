@@ -86,7 +86,7 @@ export const Contact = () => {
         metaDesc={t("metaData.descriptionContact")}
         title={t("general.menu.contact")}
       />
-      <SecondaryHeader children={t("general.menu.contact")} />
+      <SecondaryHeader />
       <section className='contact-form-container'>
         <h2 className='main-title'>{t("contact.contactCompany")}</h2>
         <div className='container'>

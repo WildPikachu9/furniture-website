@@ -61,7 +61,6 @@ export const Home = () => {
       </section>
       <section className='about-component-container'>
         <div className='img-about-container carousel-img'>
-          {/* <h1 className='logo'>arsmeble.</h1> */}
           <Logo />
           <h2 className='main-title'>
             {t("general.headersHome.aboutSection")}

@@ -1,5 +1,7 @@
 import "../../index.scss";
 import "../../i18next";
+import logoMobile from "../../img/logo.png";
+import logoDesktop from "../../img/logo1.png";
 import { useTranslation } from "react-i18next";
 import { Footer } from "../components/footer/Footer";
 import { SecondaryHeader } from "../components/secondaryHeader/SecondaryHeader";
@@ -19,7 +21,17 @@ export const About = () => {
         metaDesc={t("metaData.descriptionAbout")}
         title={t("general.menu.about")}
       />
-      <SecondaryHeader children={t("general.menu.about")} />
+      <div className='secondary-header-component'>
+        <picture>
+          <source srcSet={logoMobile} media='(max-width: 769px)' />
+          <img
+            src={logoDesktop}
+            alt='anso-home'
+            className='secondary-header-img about-page-logo'
+            loading='lazy'
+          />
+        </picture>
+      </div>
       <article className='about-desc-container main-section-container'>
         <h2 className='main-title'>{t("about.headerHistory")}</h2>
         <p className='about-desc-item'>{t("about.article1")}</p>

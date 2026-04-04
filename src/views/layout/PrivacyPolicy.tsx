@@ -12,7 +12,7 @@ export const PrivacyPolicy = () => {
         metaDesc={t("metaData.descriptionHome")}
         title={t("general.menu.policy")}
       />
-      <SecondaryHeader children={t("general.menu.policy")} />
+      <SecondaryHeader />
       <section className='policy-desc-container main-section-container'>
         <article className='policy-article'>
           <h3 className='main-title'>{t("policy.article1.header")}</h3>

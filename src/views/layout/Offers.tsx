@@ -21,7 +21,7 @@ export const Offers = () => {
         metaDesc={t("metaData.descriptionOffers")}
         title={t("general.menu.offers")}
       />
-      <SecondaryHeader children={t("general.menu.offers")} />
+      <SecondaryHeader />
       <section className='process-container main-section-container'>
         <h2 className='main-title'>{t("offers.offer")}</h2>
         <div className='work-process'>
