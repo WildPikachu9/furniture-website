@@ -30,9 +30,7 @@ const ContactInformation = () => {
 
           <div className='contact-item'>
             <h3 className='contact-header'>{t("contact.phoneNumber")}</h3>
-            <a href='tel:+48123123123'>+48123123123</a>
-            <br />
-            <a href='tel:+38093312323'>+38093312323</a>
+            <a href='tel:+48452779661'>+48 452 779 661</a>
           </div>
         </div>
         <div className='contact-item-container'>
@@ -44,10 +42,14 @@ const ContactInformation = () => {
               loading='lazy'
             />
           </div>
-
           <div className='contact-item'>
             <h3 className='contact-header'>email</h3>
-            <a href='mailto:arsmeble@gmail.com'>arsmeble@gmail.com</a>
+            <a
+              href='https://mail.google.com/mail/?view=cm&fs=1&to=ansohome.info@gmail.com'
+              target='_blank'
+            >
+              ansohome.info@gmail.com
+            </a>
           </div>
         </div>
         <div className='contact-item-container'>
