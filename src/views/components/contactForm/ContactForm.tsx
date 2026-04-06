@@ -26,7 +26,13 @@ export const ContactForm = () => {
   return (
     <div className='form-component-container'>
       <h2 className='form-header'>{t("contact.contactForm.formHeader")}</h2>
-      <Form noValidate validated={validated} onSubmit={handleSubmit}>
+      <Form
+        noValidate
+        validated={validated}
+        onSubmit={handleSubmit}
+        action='https://formspree.io/f/xojpynbl'
+        method='POST'
+      >
         <Form.Group
           controlId='validationCustom01'
           className='form-input input-name'
@@ -34,6 +40,7 @@ export const ContactForm = () => {
           <Form.Control
             required
             type='text'
+            name='name'
             placeholder={t("contact.contactForm.name")}
           />
           <Form.Control.Feedback type='invalid'>
@@ -46,6 +53,7 @@ export const ContactForm = () => {
         >
           <Form.Control
             required
+            name='email'
             type='email'
             placeholder={t("contact.contactForm.email")}
           />
@@ -56,6 +64,7 @@ export const ContactForm = () => {
         <Form.Group className='form-input input-number'>
           <Form.Control
             type='tel'
+            name='phone'
             value={phoneNumber}
             onChange={handleChange}
             placeholder={t("contact.contactForm.number")}
@@ -73,6 +82,7 @@ export const ContactForm = () => {
           <Form.Control
             as='textarea'
             rows={3}
+            name='message'
             placeholder={t("contact.contactForm.message")}
             required
           />

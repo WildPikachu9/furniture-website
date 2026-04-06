@@ -6,7 +6,7 @@ export const SecondaryHeader = () => {
     <div className='secondary-header-component'>
       <img
         src={headerImg}
-        alt='anso-home'
+        alt='ansohome'
         className='secondary-header-img'
         loading='lazy'
       />

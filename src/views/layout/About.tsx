@@ -26,7 +26,7 @@ export const About = () => {
           <source srcSet={logoMobile} media='(max-width: 769px)' />
           <img
             src={logoDesktop}
-            alt='anso-home'
+            alt='ansohome'
             className='secondary-header-img about-page-logo'
             loading='lazy'
           />
