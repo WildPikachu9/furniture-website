@@ -1,10 +1,11 @@
 {
   "metaData": {
-    "descriptionHome": "Najlepsze meble na wymiar w Krakowie i okolicach - stwórz swoje wymarzone wnętrze z naszą firmą. Zapraszamy do zapoznania się z naszą ofertą!",
-    "descriptionAbout": "Dowiedz się więcej o naszej firmie meblarskiej w Krakowie. Tworzymy wysokiej jakości, indywidualnie zaprojektowane meble na wymiar, spełniające oczekiwania naszych klientów.",
-    "descriptionGallery": "Odwiedź naszą galerię, aby zobaczyć inspirujące projekty naszych mebli na wymiar. Przejrzyj zdjęcia i znajdź pomysły na urządzenie swojego domu.",
-    "descriptionOffers": "Sprawdź nasze aktualne oferty na meble na wymiar w Krakowie i okolicach. Zapewniamy konkurencyjne ceny i doskonałą jakość. Znajdź idealne rozwiązanie dla swojego domu!",
-    "descriptionContact": "Skontaktuj się z nami, aby zamówić swoje wymarzone meble na wymiar. Nasz zespół jest gotowy, aby pomóc Ci w realizacji projektu. Czekamy na Twój telefon lub e-mail."
+    "metaTitle": "Meble na wymiar Kraków",
+    "descriptionHome": "Najlepsze meble na wymiar w Krakowie i okolicach. Zaprojektuj swoje wymarzone wnętrze z naszą firmą – wysokiej jakości meble na wymiar dopasowane do Twojego stylu i potrzeb.",
+    "descriptionAbout": "Poznaj naszą firmę meblarską w Krakowie – tworzymy indywidualne, wysokiej jakości meble na wymiar, które łączą funkcjonalność z eleganckim designem. Sprawdź naszą ofertę.",
+    "descriptionGallery": "Zainspiruj się w naszej galerii mebli na wymiar – zobacz realizacje projektów kuchni, salonów i innych wnętrz. Przejrzyj zdjęcia i znajdź pomysły na swoje wymarzone wnętrze.",
+    "descriptionOffers": "Aktualne oferty mebli na wymiar w Krakowie i okolicach. Oferujemy konkurencyjne ceny i najwyższą jakość – wybierz idealne meble dopasowane do Twojego domu lub biura.",
+    "descriptionContact": "Skontaktuj się z nami i zamów meble na wymiar w Krakowie. Nasz doświadczony zespół pomoże Ci w realizacji projektu od pomiaru po montaż – czekamy na Twój kontakt!"
   },
 
   "offersDataHomePage": {
@@ -57,7 +58,7 @@
     },
 
     "headersHome": {
-      "bannerText1": "meble na wymiar",
+      "bannerText1": "Meble na wymiar Kraków",
       "bannerText2": "wystrój wnętrz",
       "aboutSection": "dowiedz się więcej o  naszej firmie",
       "offersSection": "nasza oferta",

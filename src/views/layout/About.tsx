@@ -4,7 +4,6 @@ import logoMobile from "../../img/logo.png";
 import logoDesktop from "../../img/logo1.png";
 import { useTranslation } from "react-i18next";
 import { Footer } from "../components/footer/Footer";
-import { SecondaryHeader } from "../components/secondaryHeader/SecondaryHeader";
 import { MetaData } from "../components/metaData/MetaData";
 
 import projectIcon from "../../img/icons/project.webp";
@@ -19,7 +18,7 @@ export const About = () => {
     <div className='about-layout-container layout-container'>
       <MetaData
         metaDesc={t("metaData.descriptionAbout")}
-        title={t("general.menu.about")}
+        metaTitle={t("general.menu.about")}
       />
       <div className='secondary-header-component'>
         <picture>

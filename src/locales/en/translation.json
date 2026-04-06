@@ -1,10 +1,11 @@
 {
   "metaData": {
-    "descriptionHome": "Best custom furniture in Krakow and surrounding areas - create your dream interior with our company. We invite you to familiarize yourself with our offer!",
-    "descriptionAbout": "Learn more about our furniture company in Krakow. We create high-quality, individually designed custom furniture that meets the expectations of our clients.",
-    "descriptionGallery": "Visit our gallery to see inspiring projects of our custom furniture. Browse through photos and find ideas for furnishing your home.",
-    "descriptionOffers": "Check out our current offers for custom furniture in Krakow and surrounding areas. We guarantee competitive prices and excellent quality. Find the perfect solution for your home!",
-    "descriptionContact": "Contact us to order your dream custom furniture. Our team is ready to assist you in realizing your project. We look forward to your phone call or email."
+    "metaTitle": "Custom Furniture in Krakow",
+    "descriptionHome": "The best custom-made furniture in Krakow and surroundings. Design your dream interior with our company – high-quality furniture tailored to your style and needs.",
+    "descriptionAbout": "Learn more about our furniture company in Krakow – we create custom, high-quality furniture that combines functionality with elegant design. Check out our offer.",
+    "descriptionGallery": "Get inspired in our custom furniture gallery – explore projects of kitchens, living rooms, and other interiors. Browse photos and find ideas for your dream home.",
+    "descriptionOffers": "Current offers of custom furniture in Krakow and surroundings. We provide competitive prices and top quality – choose the perfect furniture for your home or office.",
+    "descriptionContact": "Contact us to order your custom-made furniture in Krakow. Our experienced team will help you from measurement to installation – we are ready for your call or email!"
   },
 
   "offersDataHomePage": {
@@ -57,7 +58,7 @@
     },
 
     "headersHome": {
-      "bannerText1": "custom furniture",
+      "bannerText1": "Custom-made furniture Krakow",
       "bannerText2": "interior",
       "aboutSection": "learn more about our company",
       "offersSection": "our offers",

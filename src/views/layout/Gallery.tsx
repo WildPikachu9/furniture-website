@@ -26,7 +26,7 @@ export const Gallery = () => {
     <div className='gallery-layout-container'>
       <MetaData
         metaDesc={t("metaData.descriptionGallery")}
-        title={t("general.menu.gallery")}
+        metaTitle={t("general.menu.gallery")}
       />
       <SecondaryHeader />
       <section className='gallery-container main-section-container'>

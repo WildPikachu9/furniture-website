@@ -53,7 +53,10 @@ export const Home = () => {
 
   return (
     <div className='home-layout-container'>
-      <MetaData metaDesc={t("metaData.descriptionHome")} />
+      <MetaData
+        metaDesc={t("metaData.descriptionHome")}
+        metaTitle={t("metaData.metaTitle")}
+      />
       <HomeCarousel />
       <section className='offers-component-container'>
         <h2 className='main-title'>{t("general.headersHome.offersSection")}</h2>

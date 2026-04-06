@@ -19,7 +19,7 @@ export const Offers = () => {
     <div className='offers-layout-container layout-container'>
       <MetaData
         metaDesc={t("metaData.descriptionOffers")}
-        title={t("general.menu.offers")}
+        metaTitle={t("general.menu.offers")}
       />
       <SecondaryHeader />
       <section className='process-container main-section-container'>

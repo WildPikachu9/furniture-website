@@ -31,7 +31,7 @@
     "react-helmet": "^6.1.0",
     "react-helmet-async": "^3.0.0",
     "react-leaflet": "^4.2.1",
-    "react-photo-album": "^3.5.1",
+    "react-photo-album": "^2.3.1",
     "react-router-dom": "^7.14.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.31.0",

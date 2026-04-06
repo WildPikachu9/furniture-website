@@ -4,14 +4,23 @@ import { Tab, Tabs } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { ButtonMain } from "../ButtonMain";
 import { OffersDataHomePage } from "../../../furnitureData/OffersDataHomePage";
+import { useState, useEffect } from "react";
 
 export const TabsComponent = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const offers = OffersDataHomePage();
+
+  const [activeKey, setActiveKey] = useState<string>(offers[0]?.name || "");
+
+  useEffect(() => {
+    setActiveKey(offers[0]?.name || "");
+  }, [i18n.language, offers]);
+
   return (
     <>
       <Tabs
-        defaultActiveKey='Meble kuchenne'
+        activeKey={activeKey}
+        onSelect={(key) => setActiveKey(key || "")}
         id='fill-tab-example'
         className='mb-3 tabs-component-container'
         fill

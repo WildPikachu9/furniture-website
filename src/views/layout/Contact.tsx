@@ -86,7 +86,7 @@ export const Contact = () => {
     <div className='contact-layout-container'>
       <MetaData
         metaDesc={t("metaData.descriptionContact")}
-        title={t("general.menu.contact")}
+        metaTitle={t("general.menu.contact")}
       />
       <SecondaryHeader />
       <section className='contact-form-container'>
