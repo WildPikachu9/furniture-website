@@ -18,13 +18,13 @@
       "name": "Office Furniture",
       "header": "Custom Office Furniture",
       "desc": "We offer unique solutions tailored to the needs of your office or study, providing ergonomic workspaces in an attractive form.",
-      "descMore": "ARSMEBLE specializes in designing office furniture that ensures ergonomic working conditions and adds a professional character to interiors. Our furniture is tailored to contemporary needs, combining functionality with elegance. We offer ergonomic design and modern styles, providing effective storage solutions and material durability. Visit our gallery to see how our office furniture perfectly fits into various workspaces, emphasizing professionalism and enhancing office aesthetics."
+      "descMore": "ANSO HOME by Huk specializes in designing office furniture that ensures ergonomic working conditions and adds a professional character to interiors. Our furniture is tailored to contemporary needs, combining functionality with elegance. We offer ergonomic design and modern styles, providing effective storage solutions and material durability. Visit our gallery to see how our office furniture perfectly fits into various workspaces, emphasizing professionalism and enhancing office aesthetics."
     },
     "offer3": {
       "name": "Built-In Wardrobes and Closets",
       "header": "Custom Built-In Wardrobes and Closets",
       "desc": "Discover excellence in storage with our built-in wardrobes and closets.",
-      "descMore": "At ARSMEBLE, we specialize not only in built-in wardrobes and closets but also in children's furniture and hallway furniture. Our solutions combine elegance, functionality, and customization to your needs. We offer tailored space utilization, style, elegance, functionality, and top-quality materials. Discover how our furniture can transform your space for the better."
+      "descMore": "At ANSO HOME by Huk, we specialize not only in built-in wardrobes and closets but also in children's furniture and hallway furniture. Our solutions combine elegance, functionality, and customization to your needs. We offer tailored space utilization, style, elegance, functionality, and top-quality materials. Discover how our furniture can transform your space for the better."
     },
     "offer4": {
       "name": "Attic Slope Enclosures",
@@ -36,7 +36,7 @@
       "name": "Bathroom Furniture",
       "header": "Custom Bathroom Furniture",
       "desc": "We offer unique solutions tailored to individual needs, providing not only functionality but also exceptional bathroom design.",
-      "descMore": "ARSMEBLE is where we design bathroom furniture with a focus on practicality, aesthetics, and durability. Our products combine functionality with elegance, adapting to contemporary lifestyle needs. They ensure optimal space utilization, moisture-resistant durability, modern designs, and practical storage solutions. By investing in our furniture, you invest in elegance and functionality, creating a bathroom that meets both practical and aesthetic requirements."
+      "descMore": "ANSO HOME by Huk is where we design bathroom furniture with a focus on practicality, aesthetics, and durability. Our products combine functionality with elegance, adapting to contemporary lifestyle needs. They ensure optimal space utilization, moisture-resistant durability, modern designs, and practical storage solutions. By investing in our furniture, you invest in elegance and functionality, creating a bathroom that meets both practical and aesthetic requirements."
     }
   },
 
@@ -44,12 +44,13 @@
     "seeMore": "See More",
     "readMore": "Read More",
     "seeMoreImages": "see more photos of our projects",
+    "ourGallery": "Our work gallery",
 
     "menu": {
       "home": "Home",
       "about": "About",
       "gallery": "Gallery",
-      "offers": "Offers",
+      "offers": "Offer",
       "contact": "Contact",
       "policy": "Privacy Policy",
       "scrollToUp": "scroll to top"
@@ -57,7 +58,7 @@
 
     "headersHome": {
       "bannerText1": "custom furniture",
-      "bannerText2": "interior design",
+      "bannerText2": "interior",
       "aboutSection": "learn more about our company",
       "offersSection": "our offers",
       "reviewSection": "our reviews",
@@ -68,7 +69,7 @@
   },
 
   "contact": {
-    "contactCompany": "contact the custom furniture manufacturer arsmeble.",
+    "contactCompany": "contact the custom furniture manufacturer ANSO HOME by Huk",
     "phoneNumber": "phone number",
     "workingHours": "working hours",
     "weekdays": "mon-fri:",
@@ -80,7 +81,7 @@
       "name": "Enter your name",
       "email": "Enter your email",
       "number": "Enter your phone number",
-      "message": "Enter message",
+      "message": "Enter your message",
       "check": "I have read the privacy policy",
       "button": "send message"
     },
@@ -122,8 +123,8 @@
 
   "policy": {
     "article1": {
-      "header": "Privacy Policy www.arsmeble.com",
-      "text": "Protecting users' privacy is a top priority for IHOR HUK ARSMEBLE. We ensure high standards of personal data protection and security in their processing."
+      "header": "Privacy Policy www.anso-home.com",
+      "text": "Protecting users' privacy is a top priority for ANSO HOME by Huk. We ensure high standards of personal data protection and security in their processing."
     },
     "article2": {
       "header": "Personal Data",
@@ -134,19 +135,19 @@
       "text": "The user has the right to access their data, correct it, delete it, and object to its processing. They can also lodge a complaint with the supervisory authority."
     },
     "article4": {
-      "header": "cookies",
-      "text": "The www.arsmeble.com website uses cookies to optimize website use and collect statistics. Users can manage cookies through their web browser settings."
+      "header": "Cookies",
+      "text": "The www.anso-home.com website uses cookies to optimize website use and collect statistics. Users can manage cookies through their web browser settings."
     },
     "article5": {
       "header": "Security of Personal Data",
       "text": "We provide appropriate security measures for personal data and regularly monitor systems to detect threats."
     },
     "article6": {
-      "text": "For questions about the privacy policy, please contact us at: arsmeble@gmail.com"
+      "text": "For questions about the privacy policy, please contact us at: ansohome.info@gmail.com"
     },
     "article7": {
       "header": "Update",
-      "text": "Last privacy policy update: 01.05.2024."
+      "text": "Last privacy policy update: 01.04.2026"
     }
   }
 }
