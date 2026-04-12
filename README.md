@@ -1,6 +1,10 @@
 # Website of a furniture company
 
-## Available Scripts
+## Scripts to install
+
+### `npm install`
+
+### `nvm use 18`
 
 In the project directory, you can run:
 
